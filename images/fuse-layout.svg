@@ -45,7 +45,7 @@
      inkscape:window-height="1046"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="1.9295559"
+     inkscape:zoom="2.3022169"
      inkscape:cx="474.0962"
      inkscape:cy="570.09124"
      inkscape:window-x="1920"
@@ -949,14 +949,5 @@
            y="-70.472969"
            style="stroke-width:1">35- 30A</tspan></text>
     </g>
-    <rect
-       style="fill:#cccdcd;fill-opacity:1;stroke:none;stroke-width:3.72219;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.52941179"
-       id="rect979"
-       width="142.63928"
-       height="24.488716"
-       x="-2089.4226"
-       y="418.94772"
-       rx="0.45116299"
-       ry="0.45116296" />
   </g>
 </svg>
