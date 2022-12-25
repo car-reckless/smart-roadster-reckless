@@ -72,9 +72,9 @@ Programming setup:
 
 - Open XProg an select Device:
 
-- Type: ZGS 001
-- Subtype: A 164 540 56 62
-- MC9S12DT 256 -> EEPROM 
+  - Type: ZGS 001
+  - Subtype: A 164 540 56 62
+  - MC9S12DT 256 -> EEPROM 
 
 ```{image} ./images/XProg-select-device.png
 :alt: xprog-select-device
@@ -93,7 +93,7 @@ Programming setup:
 :align: center
 ```
 
-- Load and write factory default eprom dump.
+- Load and write factory default eprom dump file.
 
 - Reconnect pin 16 again.
 
