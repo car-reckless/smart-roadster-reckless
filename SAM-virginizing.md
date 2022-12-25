@@ -42,7 +42,7 @@ Disconnect pin 16 (CD4060BCM)
 
 Wiring:
 
-```{image} ./images/SAM-detail.png
+```{image} ./images/SAM-wire.png
 :alt: SAM-detail
 :class: bg-primary mb-1
 :width: 800px
