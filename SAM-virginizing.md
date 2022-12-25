@@ -83,7 +83,8 @@ Programming setup:
 :align: center
 ```
 
-- Create new file (File->New) and read current EPROM content (for backup).
+- Create new file (File->New) and read current EPROM content (for backup). The
+  car VIN is located at address 0x86E.
 
 
 ```{image} ./images/Xprog-eprom-backup.png
@@ -104,3 +105,5 @@ Programming setup:
 ## Setting up SAM in car 
 
 MB Star procedure (TODO)
+
+- SAM, manual VIN, SAM menu, setting up
