@@ -4,5 +4,8 @@
 format: jb-book
 root: intro
 chapters:
+- file: part-numbers
+- file: maintenance
 - file: fuse-layout
+- file: repair-side-mirror
 - file: SAM-virginizing

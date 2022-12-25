@@ -7,7 +7,7 @@ This procedure set the SAM EEPROM to factory defaults so may be setup in any car
 Remove the 3 torx screws
 
 ```{image} ./images/SAM-outer.png
-:alt: SAM-up
+:alt: SAM-outer
 :class: bg-primary mb-1
 :width: 800px
 :align: center
