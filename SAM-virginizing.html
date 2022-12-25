@@ -51,7 +51,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Welcome" href="intro.html" />
+    <link rel="prev" title="Fuse layout" href="fuse-layout.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -107,6 +107,11 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="fuse-layout.html">
+   Fuse layout
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    SAM virginizing
@@ -362,7 +367,7 @@ title="Print to PDF"
 <p>Disconnect pin 16 (CD4060BCM)</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-CD4060BCM.png"><img alt="SAM-board" class="bg-primary mb-1 align-center" src="_images/SAM-CD4060BCM.png" style="width: 800px;" /></a>
 <p>Wiring:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-detail.png"><img alt="SAM-detail" class="bg-primary mb-1 align-center" src="_images/SAM-detail.png" style="width: 800px;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-wire.png"><img alt="SAM-detail" class="bg-primary mb-1 align-center" src="_images/SAM-wire.png" style="width: 800px;" /></a>
 <p>XProg connector:</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/XProg-connector.jpg"><img alt="XProg-connector" class="bg-primary mb-1 align-center" src="_images/XProg-connector.jpg" style="width: 800px;" /></a>
 <p>Programming setup:</p>
@@ -381,7 +386,8 @@ title="Print to PDF"
 </ul>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/XProg-select-device.png"><img alt="xprog-select-device" class="bg-primary mb-1 align-center" src="_images/XProg-select-device.png" style="width: 800px;" /></a>
 <ul class="simple">
-<li><p>Create new file (File-&gt;New) and read current EPROM content (for backup).</p></li>
+<li><p>Create new file (File-&gt;New) and read current EPROM content (for backup). The
+car VIN is located at address 0x86E.</p></li>
 </ul>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/Xprog-eprom-backup.png"><img alt="xprog-eprom-backup" class="bg-primary mb-1 align-center" src="_images/Xprog-eprom-backup.png" style="width: 800px;" /></a>
 <ul class="simple">
@@ -394,6 +400,9 @@ title="Print to PDF"
 <div class="section" id="setting-up-sam-in-car">
 <h2>Setting up SAM in car<a class="headerlink" href="#setting-up-sam-in-car" title="Permalink to this headline">#</a></h2>
 <p>MB Star procedure (TODO)</p>
+<ul class="simple">
+<li><p>SAM, manual VIN, SAM menu, setting up</p></li>
+</ul>
 </div>
 </div>
 
@@ -424,11 +433,11 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="fuse-layout.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Welcome</p>
+            <p class="prev-next-title">Fuse layout</p>
         </div>
     </a>
 </div>
