@@ -10,3 +10,12 @@ chapters:
 - file: repair-side-mirror
 - file: SAM-virginizing
 - file: dash
+- file: heated-seats
+- file: hardtop
+- file: coupe-side-windows
+- file: coupe-rear-spoiler
+- file: sensor-de-giro
+- file: softtip-direction-change
+- file: front-antifog
+- file: diagnostics
+- file: keys-and-imobilizer
