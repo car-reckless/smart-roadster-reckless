@@ -1,6 +1,6 @@
-# Heated seats
+# Asientos calefactables
 
-Relés uno por asiento
+Relés (uno por asiento)
 
 ```{image} ./images/heated-seats/rele.jpg
 :class: bg-primary mb-1

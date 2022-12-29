@@ -1,4 +1,4 @@
-# Repairing side mirrors
+# Reparación de retrovisores laterales
 
 ```{image} ./images/side-mirror/1.jpg
 :class: bg-primary mb-1

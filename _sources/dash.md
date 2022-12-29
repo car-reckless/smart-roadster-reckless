@@ -1,4 +1,4 @@
-# Dash programming
+# Programación del dash
 
 
 ```{image} ./images/tachosoft.jpg

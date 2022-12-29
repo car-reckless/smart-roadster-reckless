@@ -1,10 +1,10 @@
-# SAM virginizing
+# Virginización de la SAM
 
-This procedure set the SAM EEPROM to factory defaults so may be setup in any car using MB Star.
+Este procedimiento sirve para programar la EEPROM de la SAM con su contenido de fábrica de modo que se puede instalar en cualquier coche usando MB Star.
 
-## Preparation
+## Preparación
 
-Remove the 3 torx screws
+Retira los the 3 tornillos torx marcados:
 
 ```{image} ./images/SAM-outer.png
 :alt: SAM-outer
@@ -13,7 +13,7 @@ Remove the 3 torx screws
 :align: center
 ```
 
-Open box:
+Abre la SAM.
 
 ```{image} ./images/SAM-side.jpg
 :alt: SAM-side
@@ -22,7 +22,7 @@ Open box:
 :align: center
 ```
 
-Upside board view:
+Vista superior de la placa:
 
 ```{image} ./images/SAM-board.png
 :alt: SAM-board
@@ -31,7 +31,7 @@ Upside board view:
 :align: center
 ```
 
-Disconnect pin 16 (CD4060BCM)
+Desconecta el pin 16 (CD4060BCM)
 
 ```{image} ./images/SAM-CD4060BCM.png
 :alt: SAM-board
@@ -40,7 +40,7 @@ Disconnect pin 16 (CD4060BCM)
 :align: center
 ```
 
-Wiring:
+Cableado para la programación:
 
 ```{image} ./images/SAM-wire.png
 :alt: SAM-detail
@@ -49,7 +49,7 @@ Wiring:
 :align: center
 ```
 
-XProg connector:
+Conector del XProg:
 
 ```{image} ./images/XProg-connector.jpg
 :alt: XProg-connector
@@ -58,7 +58,7 @@ XProg connector:
 :align: center
 ```
 
-Programming setup:
+Configuración para la programación:
 
 ```{image} ./images/SAM-programming-setup.png
 :alt: programming-setup
@@ -68,9 +68,9 @@ Programming setup:
 ```
 
 
-## Programming
+## Programación
 
-- Open XProg an select Device:
+- Abre XProg y selecciona el dispositivo (Device):
 
   - Type: ZGS 001
   - Subtype: A 164 540 56 62
@@ -83,8 +83,7 @@ Programming setup:
 :align: center
 ```
 
-- Create new file (File->New) and read current EPROM content (for backup). The
-  car VIN is located at address 0x86E.
+- Crea un nuevo fichero (File->New) y lee el contenido actual de la EPROM (por si acaso dejarlo como estaba). El VIN del coche está situado a partir de la dirección 0x86E.
 
 
 ```{image} ./images/Xprog-eprom-backup.png
@@ -94,16 +93,15 @@ Programming setup:
 :align: center
 ```
 
-- Load and write factory default eprom dump file.
+- Carga y escribe el fichero de fábrica en la EPROM.
+- Reconecta de nuevo el pin 16.
+- Retira los cables de programación.
+- La SAM está lista para instalar.
 
-- Reconnect pin 16 again.
 
-- Remove wires.
+## Instalación de la SAM en el coche
 
-- Your SAM is ready to install in the car.
-
-## Setting up SAM in car 
-
-MB Star procedure (TODO)
+Procedimiento MB Star procedure (Pendiente)
 
 - SAM, manual VIN, SAM menu, setting up
+

@@ -1,6 +1,6 @@
-# Front fog lights
+# Luces antiniebla delanteras
 
-## Connectors
+## Conectores
 
 ```{image} ./images/fog-lights/1.png
 :class: bg-primary mb-1
@@ -27,7 +27,7 @@
 :align: center
 ```
 
-## Wiring diagram
+## Diagrama eléctrico
 
 ```{image} ./images/fog-lights/schematic.png
 :class: bg-primary mb-1
@@ -47,11 +47,11 @@
 :align: center
 ```
 
-## Relays
+## Relés
 
-- A: windscreen wipers
-- B: fog lights
-- C and D: heated seats
+- A: limpiaparabrisas
+- B: luces antiniebla
+- C and D: asientos calefactables
 
 
 ```{image} ./images/fog-lights/relays.png
@@ -60,14 +60,12 @@
 :align: center
 ```
 
-## Wire path
+## Ruta para los cables
 
-Take out the front boot, on top of the rod there is a wiring harness that
-goes into the car. It is round all around and has small holes covered with
-rubber.
+Sacas el maletero, encima de la caña hay un mazo de cables que entran al coche.
+Es redondo alrededor y tiene unos agujeritos marcados tapados con goma.
 
-With a screwdriver amke a hole in it, and with a cable grommet, you put the
-wires through.
+Con un destornillador lo agujereas Y con un pasahilos, pasas los cables
 
 
 ```{image} ./images/fog-lights/2.png

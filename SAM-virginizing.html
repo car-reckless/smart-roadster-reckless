@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SAM virginizing &#8212; Smart Roadster: Reckless Enthusiast&#39;s Guide</title>
+    <title>Virginización de la SAM &#8212; Smart Roadster: Reckless Enthusiast&#39;s Guide</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -51,7 +51,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Repair side mirrors" href="repair-side-mirror.html" />
+    <link rel="next" title="Programación del dash" href="dash.html" />
+    <link rel="prev" title="Reparación de retrovisores laterales" href="repair-side-mirror.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -102,7 +103,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Contents
+                    Contenidos
                 </a>
             </li>
         </ul>
@@ -114,22 +115,87 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="maintenance.html">
-   Maintenance
+   Mantenimiento
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="fuse-layout.html">
-   Fuse layout
+   Situación de los fusibles
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="repair-side-mirror.html">
-   Repair side mirrors
+   Reparación de retrovisores laterales
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   SAM virginizing
+   Virginización de la SAM
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dash.html">
+   Programación del dash
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="heated-seats.html">
+   Asientos calefactables
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hardtop.html">
+   Hardtop
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="coupe-side-windows.html">
+   Reparación de las ventanas laterales del coupé
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="coupe-rear-spoiler.html">
+   Reparación del spoiler del coupé
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sensor-de-giro.html">
+   Alineación del sensor de giro
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="softtip-direction-change.html">
+   Cambio de sentido de la palanca de cambios
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="front-antifog.html">
+   Luces antiniebla delanteras
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="diagnostics.html">
+   Equipos de programación y diagnóstico
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="keys-and-imobilizer.html">
+   Llaves e inmovilizador
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="oil-filter-adapter.html">
+   Instalación del filtro de aceite
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="clutch-actuator.html">
+   Ajuste del actuador de embrague
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="CKP-sensor.html">
+   Sustitución del sensor CKP
   </a>
  </li>
 </ul>
@@ -310,18 +376,18 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#preparation">
-   Preparation
+  <a class="reference internal nav-link" href="#preparacion">
+   Preparación
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#programming">
-   Programming
+  <a class="reference internal nav-link" href="#programacion">
+   Programación
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#setting-up-sam-in-car">
-   Setting up SAM in car
+  <a class="reference internal nav-link" href="#instalacion-de-la-sam-en-el-coche">
+   Instalación de la SAM en el coche
   </a>
  </li>
 </ul>
@@ -333,7 +399,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>SAM virginizing</h1>
+                <h1>Virginización de la SAM</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -344,18 +410,18 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#preparation">
-   Preparation
+  <a class="reference internal nav-link" href="#preparacion">
+   Preparación
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#programming">
-   Programming
+  <a class="reference internal nav-link" href="#programacion">
+   Programación
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#setting-up-sam-in-car">
-   Setting up SAM in car
+  <a class="reference internal nav-link" href="#instalacion-de-la-sam-en-el-coche">
+   Instalación de la SAM en el coche
   </a>
  </li>
 </ul>
@@ -368,30 +434,30 @@ title="Print to PDF"
                 
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="sam-virginizing">
-<h1>SAM virginizing<a class="headerlink" href="#sam-virginizing" title="Permalink to this headline">#</a></h1>
-<p>This procedure set the SAM EEPROM to factory defaults so may be setup in any car using MB Star.</p>
-<div class="section" id="preparation">
-<h2>Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">#</a></h2>
-<p>Remove the 3 torx screws</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="virginizacion-de-la-sam">
+<h1>Virginización de la SAM<a class="headerlink" href="#virginizacion-de-la-sam" title="Permalink to this headline">#</a></h1>
+<p>Este procedimiento sirve para programar la EEPROM de la SAM con su contenido de fábrica de modo que se puede instalar en cualquier coche usando MB Star.</p>
+<div class="section" id="preparacion">
+<h2>Preparación<a class="headerlink" href="#preparacion" title="Permalink to this headline">#</a></h2>
+<p>Retira los the 3 tornillos torx marcados:</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-outer.png"><img alt="SAM-outer" class="bg-primary mb-1 align-center" src="_images/SAM-outer.png" style="width: 800px;" /></a>
-<p>Open box:</p>
+<p>Abre la SAM.</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-side.jpg"><img alt="SAM-side" class="bg-primary mb-1 align-center" src="_images/SAM-side.jpg" style="width: 800px;" /></a>
-<p>Upside board view:</p>
+<p>Vista superior de la placa:</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-board.png"><img alt="SAM-board" class="bg-primary mb-1 align-center" src="_images/SAM-board.png" style="width: 800px;" /></a>
-<p>Disconnect pin 16 (CD4060BCM)</p>
+<p>Desconecta el pin 16 (CD4060BCM)</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-CD4060BCM.png"><img alt="SAM-board" class="bg-primary mb-1 align-center" src="_images/SAM-CD4060BCM.png" style="width: 800px;" /></a>
-<p>Wiring:</p>
+<p>Cableado para la programación:</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-wire.png"><img alt="SAM-detail" class="bg-primary mb-1 align-center" src="_images/SAM-wire.png" style="width: 800px;" /></a>
-<p>XProg connector:</p>
+<p>Conector del XProg:</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/XProg-connector.jpg"><img alt="XProg-connector" class="bg-primary mb-1 align-center" src="_images/XProg-connector.jpg" style="width: 800px;" /></a>
-<p>Programming setup:</p>
+<p>Configuración para la programación:</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/SAM-programming-setup.png"><img alt="programming-setup" class="bg-primary mb-1 align-center" src="_images/SAM-programming-setup.png" style="width: 800px;" /></a>
 </div>
-<div class="section" id="programming">
-<h2>Programming<a class="headerlink" href="#programming" title="Permalink to this headline">#</a></h2>
+<div class="section" id="programacion">
+<h2>Programación<a class="headerlink" href="#programacion" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
-<li><p>Open XProg an select Device:</p>
+<li><p>Abre XProg y selecciona el dispositivo (Device):</p>
 <ul>
 <li><p>Type: ZGS 001</p></li>
 <li><p>Subtype: A 164 540 56 62</p></li>
@@ -401,20 +467,19 @@ title="Print to PDF"
 </ul>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/XProg-select-device.png"><img alt="xprog-select-device" class="bg-primary mb-1 align-center" src="_images/XProg-select-device.png" style="width: 800px;" /></a>
 <ul class="simple">
-<li><p>Create new file (File-&gt;New) and read current EPROM content (for backup). The
-car VIN is located at address 0x86E.</p></li>
+<li><p>Crea un nuevo fichero (File-&gt;New) y lee el contenido actual de la EPROM (por si acaso dejarlo como estaba). El VIN del coche está situado a partir de la dirección 0x86E.</p></li>
 </ul>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/Xprog-eprom-backup.png"><img alt="xprog-eprom-backup" class="bg-primary mb-1 align-center" src="_images/Xprog-eprom-backup.png" style="width: 800px;" /></a>
 <ul class="simple">
-<li><p>Load and write factory default eprom dump file.</p></li>
-<li><p>Reconnect pin 16 again.</p></li>
-<li><p>Remove wires.</p></li>
-<li><p>Your SAM is ready to install in the car.</p></li>
+<li><p>Carga y escribe el fichero de fábrica en la EPROM.</p></li>
+<li><p>Reconecta de nuevo el pin 16.</p></li>
+<li><p>Retira los cables de programación.</p></li>
+<li><p>La SAM está lista para instalar.</p></li>
 </ul>
 </div>
-<div class="section" id="setting-up-sam-in-car">
-<h2>Setting up SAM in car<a class="headerlink" href="#setting-up-sam-in-car" title="Permalink to this headline">#</a></h2>
-<p>MB Star procedure (TODO)</p>
+<div class="section" id="instalacion-de-la-sam-en-el-coche">
+<h2>Instalación de la SAM en el coche<a class="headerlink" href="#instalacion-de-la-sam-en-el-coche" title="Permalink to this headline">#</a></h2>
+<p>Procedimiento MB Star procedure (Pendiente)</p>
 <ul class="simple">
 <li><p>SAM, manual VIN, SAM menu, setting up</p></li>
 </ul>
@@ -452,8 +517,15 @@ car VIN is located at address 0x86E.</p></li>
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Repair side mirrors</p>
+            <p class="prev-next-title">Reparación de retrovisores laterales</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="dash.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Programación del dash</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>
