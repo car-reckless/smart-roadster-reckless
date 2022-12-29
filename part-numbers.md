@@ -1,3 +1,3 @@
 # Part numbers
 
-I maintain a dedicated web page with part numbers. You can view it [here](https://prayereleven.github.io/smart-roadster-parts/).
+Mantengo una página web específica con los número de piezas. Puedes verla [aquí](https://prayereleven.github.io/smart-roadster-parts/).

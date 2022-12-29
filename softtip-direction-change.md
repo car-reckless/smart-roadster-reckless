@@ -1,4 +1,4 @@
-# Soft tip change direction
+# Cambio de sentido de la palanca de cambios
 
 (by Josep)
 

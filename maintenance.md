@@ -1,61 +1,57 @@
-# Maintenance
+# Mantenimiento
 
-## Resetting the servicing indicator
+## Resetear el indicador de mantenimiento
 
-The service indicator shows how many kilometres are left until the next
-maitenance service. To reset it, simply press the central button on the
-dashboard (hereafter just "the button") and turn the ignition on (key in
-position 1).
+El indicador de servicio muestra cuántos kms faltan hasta la próxima revisión.
+Para resetearlo solo tienes que actuar sobre el botón central del cuadro (en
+adelante solo “botón”) y el contacto (llave en posición 1).
 
-1. Close the doors and turn the ignition on.
-2. Within 4s, select the service indicator by pressing the button twice in
-   succession.
-3. Within 10s, remove the ignition. The service indicator will remain on the
-   display...
-4. Within 10s, press (and hold) the button and turn the ignition on (both at the
-   same time).
-5. Continue to hold the button down until it shows 10.000 km.
+- Cierra las puertas y da el contacto.
+- Antes de 4s, selecciona el indicador de servicio pulsando 2 veces seguidas el botón.
+- Antes de 10s, quita el contacto. El indicador de servicio quedará fijo en la pantalla..
+- Antes de 10s, pulsa (y mantén) el botón y da el contacto (ambos a la vez).
+- Sigue manteniendo apretado el botón hasta que indique 10.000 km.
 
 ## Oil
 
-- Type: 5W40
+- Tipo: 5W40
 - Standard: mb 229.5
-- volume
-  - with original filter: 3.5 litres
-  - with adapter: 275-325 ml more 
+- Volumen
+  - Con el filtro original: 3.5 litros
+  - Con adaptador: 275-325 ml más
   
 +info: https://www.evilution.co.uk/415
 
-## Spark plugs
+## Bujías
 
 - 6x NGK LKR8A
-- Torque: 27-28 Nm (according to autodata)
+- Torque: 27-28 Nm (según Autodata)
 
 
-##  Brake fluid
+## Líquido de frenos
 
 - Standard: DOT5.1
 
 
-## Brake pads
+## Pastillas de freno
 
 - Ferodo DS2500: FCP1162H
 
-## Air conditioning gas
+## Gas del aire acondicionado
 
 - R134A
 
-## Pneumatic springs
+## Muelles neumáticos
 
-- front boot
+- Maletero delantero
   - 297 mm
   - 240 N
-  - May fit:
+  - Compatibles:
     - Oscaro: Magneti Marelli, Ref-430719087800
     - https://www.autodoc.es/trucktec-automotive/8573228
     - https://www.expertoautorecambios.es/trucktec-automotive-8573228
-- rear boot (roadster)
-- rear boot (roadster coupe)
+- Maletero trasero (roadster)
+- Maletero trasero (roadster coupe)
   - part number: Q0011119V002000000
   - 500/190 mm
   - 200 N
