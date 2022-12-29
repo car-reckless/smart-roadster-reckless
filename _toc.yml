@@ -8,8 +8,6 @@ chapters:
 - file: maintenance
 - file: fuse-layout
 - file: repair-side-mirror
-- file: SAM-virginizing
-- file: dash
 - file: heated-seats
 - file: hardtop
 - file: coupe-side-windows
@@ -23,3 +21,5 @@ chapters:
 - file: clutch-actuator
 - file: CKP-sensor
 - file: homologaciones
+- file: SAM-virginizing
+- file: dash
