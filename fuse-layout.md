@@ -1,4 +1,4 @@
-# Situación de los fusibles
+# Fusibles
 
 ```{image} ./images/fuse-layout.png
 :alt: fuse-layout
