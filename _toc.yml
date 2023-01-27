@@ -25,6 +25,9 @@ parts:
     - file: homologaciones
     - file: SAM-virginizing
     - file: dash
+    - file: radio-cd
+    - file: radio-cd-pin-recovery
+    - file: soft-top-install
   - caption: MB Star
     chapters:
     - file: check-lambda-sensor

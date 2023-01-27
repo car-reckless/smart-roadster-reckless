@@ -1,0 +1,19 @@
+{
+    "triggerTaskOnSave.restart": true,
+    "triggerTaskOnSave.showStatusBarToggle": true,
+    "triggerTaskOnSave.resultIndicator": "statusBar.background",
+    "triggerTaskOnSave.successColour": "#239B56",
+    "triggerTaskOnSave.failureColour": "#E74C3C",
+    "triggerTaskOnSave.tasks": {
+        "jupyter-book-build": [
+            "*.md",
+            "*.yml",
+        ],
+    },
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#b8b8b871"
+    },
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#b8b8b871",
+    },
+}
