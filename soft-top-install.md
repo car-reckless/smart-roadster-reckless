@@ -1,4 +1,4 @@
-# Montaje de la capota
+# Instalación de la capota
 
 Esta receta explica la instalación de la capota (soft top) en un Smart Roadster hard-top. Como siempre, con la inestimable ayuda de Josep, Maxito, Davichini y demás gentes de bien de Forosmart.
 
@@ -463,7 +463,7 @@ Acciona brevemente el mando y el cable tractor debería moverse. Muévelo solo u
 Ver vídeo: https://goo.gl/PnjP82
 
 
-## Montaje de la lona
+## Colocación de la lona
 
 ```{image} ./images/soft-top/soft-top-parts.svg
 :alt: SAM-up
