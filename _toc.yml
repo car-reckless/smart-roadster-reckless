@@ -3,23 +3,29 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: part-numbers
-- file: maintenance
-- file: fuse-layout
-- file: repair-side-mirror
-- file: heated-seats
-- file: hardtop
-- file: coupe-side-windows
-- file: coupe-rear-spoiler
-- file: sensor-de-giro
-- file: softtip-direction-change
-- file: front-antifog
-- file: diagnostics
-- file: keys-and-imobilizer
-- file: oil-filter-adapter
-- file: clutch-actuator
-- file: CKP-sensor
-- file: homologaciones
-- file: SAM-virginizing
-- file: dash
+parts:
+  - caption: General
+    chapters:
+    - file: part-numbers
+    - file: maintenance
+    - file: fuse-layout
+    - file: repair-side-mirror
+    - file: heated-seats
+    - file: hardtop
+    - file: coupe-side-windows
+    - file: coupe-rear-spoiler
+    - file: sensor-de-giro
+    - file: softtip-direction-change
+    - file: front-antifog
+    - file: diagnostics
+    - file: keys-and-imobilizer
+    - file: oil-filter-adapter
+    - file: clutch-actuator
+    - file: CKP-sensor
+    - file: homologaciones
+    - file: SAM-virginizing
+    - file: dash
+  - caption: MB Star
+    chapters:
+    - file: check-lambda-sensor
+    - file: adjust-lambda-sensor
