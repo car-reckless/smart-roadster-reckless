@@ -28,6 +28,7 @@ parts:
     - file: radio-cd
     - file: radio-cd-pin-recovery
     - file: soft-top-install
+    - file: heating-system
   - caption: MB Star
     chapters:
     - file: check-lambda-sensor
