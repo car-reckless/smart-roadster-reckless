@@ -1,4 +1,4 @@
-# Montaje de la capota
+# Instalación de la capota
 
 Esta receta explica la instalación de la capota (soft top) en un Smart Roadster hard-top. Como siempre, con la inestimable ayuda de Josep, Maxito, Davichini y demás gentes de bien de Forosmart.
 
@@ -89,7 +89,9 @@ Cable distanciador («distance»): Conecta dos piezas móviles dentro del raíl.
 :align: center
 ```
 
-Cable tractor («driver»): Son mucho más largos y los movidos directamente por el motor. El del lado del acompañante es un poco más largo porque el motor está ligeramente situado a la izquierda del coche.
+Cable tractor («driver»): Son mucho más largos y los movidos directamente por el motor. El
+del lado del acompañante es un poco más largo porque el motor está ligeramente situado a
+la izquierda del coche.
 
 ```{image} ./images/soft-top/sirgas-2.png
 :class: bg-primary mb-1
@@ -363,31 +365,39 @@ Los conectores de la SAM involucrados son:
 
 Está formado por 2 hilos de 4.0 mm de sección con la siguiente disposición:
 
-Conector | hilo | sección | hacia
-Pin 1 | amarillo | 4mm | Pin N11-2/6
-Pin 2 | rojo-blanco | 4mm | Pin N11-2/8
+| conector | hilo        | hacia       |
+| -------- | ----------- | ----------- |
+| Pin 1    | amarillo    | Pin N11-2/6 |
+| Pin 2    | rojo-blanco | Pin N11-2/8 |
 
 
 ### Interruptores de seguridad
 
-Está formado por 3 hilos de 0.5 mm de sección. Los cables tienen colores diferentes antes y después del conector S2, como se muestra aquí:
+Está formado por 3 hilos de 0.5 mm de sección. Los cables tienen colores diferentes antes
+y después del conector S2, como se muestra aquí:
 
-antes | conector S2 | hilo | hacia
-marrón | Pin 1 | marrón |  Masa W26
-amarillo-marrón | Pin 2 | azul-blanco | Pin N11-8/32
-negro-verde | Pin 3 | rosa-negro  1 Pin N11-8/33
+| antes           | conector S2 | hilo        | hacia        |
+| --------------- | ----------- | ----------- | ------------ |
+| marrón          | Pin 1       | marrón      |  Masa W26    |
+| amarillo-marrón | Pin 2       | azul-blanco | Pin N11-8/32 |
+| negro-verde     | Pin 3       | rosa-negro  | Pin N11-8/33 |
 
-El Pin 2 del conector viene de los sensores (interruptores) que detectan los travesaños. La capota solo se puede cerrar si ambos conectores están cerrados (los travesaños están colocados en su posición).
+El Pin 2 del conector viene de los sensores (interruptores) que detectan los travesaños.
+La capota solo se puede cerrar si ambos conectores están cerrados (los travesaños están
+colocados en su posición).
 
-El Pin 3 del conector viene del sensor (interruptor) de la solapa de la capota. La capota solo se puede abrir si la solapa está levantada, es decir, supuestamente no hay carga en el maletero que obstruya la apertura.
+El Pin 3 del conector viene del sensor (interruptor) de la solapa de la capota. La capota
+solo se puede abrir si la solapa está levantada, es decir, supuestamente no hay carga en
+el maletero que obstruya la apertura.
 
 Interruptor del mando en la consola. Todos los hilos son de 0.5 mm de sección.
 
-conector | hilo | marrón | hacia
-Pines 1 y 3 | marrón | masa W26
-Pin 2 | rojo-amarillo | N11-3/3
-Pin 4 | blanco | N11-8/35
-Pin 5 | marrón-blanco | Z29/4
+| conector     | hilo          | hacia        |
+| ------------ | ------------- | ------------ |
+| Pines 1 y 3  | marrón        | masa W26     |
+| Pin 2        | rojo-amarillo | N11-3/3      |
+| Pin 4        | blanco        | N11-8/35     |
+| Pin 5        | marrón-blanco | Z29/4        |
 
 Los puntos de conexión W26 y Z29/4 son comunes a muchos componentes del coche.
 
@@ -420,15 +430,17 @@ Acciona brevemente el mando y el cable tractor debería moverse. Muévelo solo u
 Ver vídeo: https://goo.gl/PnjP82
 
 
-## Montaje de la lona
+## Colocación de la lona
 
-```{image} ./images/soft-top/pieces.png
+```{image} ./images/soft-top/soft-top-parts.svg
+:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
-```{image} ./images/soft-top/align.png
+```{image} ./images/soft-top/mounting.svg
+:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center

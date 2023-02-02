@@ -22,7 +22,7 @@ unas gotas de silicona caliente para que no se muevan.
 
 Las líneas rojas son cortes que hay que hacer en las pistas.
 
-```{image} ./images/soft-tip/3.png
+```{image} ./images/soft-tip/soft-tip-hack.png
 :class: bg-primary mb-1
 :width: 800px
 :align: center
