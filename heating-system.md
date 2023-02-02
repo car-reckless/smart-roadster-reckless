@@ -1,5 +1,7 @@
 # Averías de la calefacción
 
+(by Josep)
+
 Si no funciona una o más de las velocidades del ventilador de la calefacción lo mas
 probable es que sea el conmutador deslizante.
 
