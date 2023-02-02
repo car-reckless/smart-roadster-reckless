@@ -32,7 +32,6 @@ Es la pieza principal que incluye el motor y los raíles por los que se desplaza
 Ref: Q0009879V002000000 (no verificado)
 
 ```{image} ./images/soft-top/motor.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -43,7 +42,6 @@ Ref: Q0009879V002000000 (no verificado)
 Ref: Q0009336V011C46L00 (no verificado)
 
 ```{image} ./images/soft-top/largueros.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -55,7 +53,6 @@ Ref: Q0014822V001000000 (verificado)
 Nombre oficial: "Slide hoop" / "Patín cercha"
 
 ```{image} ./images/soft-top/patines.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -67,7 +64,6 @@ Ref: Q0022489V001000000 (verificado)
 Nombre oficial: "Funda de la capota"
 
 ```{image} ./images/soft-top/pestanas.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -76,7 +72,6 @@ Nombre oficial: "Funda de la capota"
 Pestaña montada en el patín:
 
 ```{image} ./images/soft-top/patin-con-pestana.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -89,7 +84,6 @@ Nombre oficial: ?
 Cable distanciador («distance»): Conecta dos piezas móviles dentro del raíl.
 
 ```{image} ./images/soft-top/sirgas.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -100,7 +94,6 @@ del lado del acompañante es un poco más largo porque el motor está ligerament
 la izquierda del coche.
 
 ```{image} ./images/soft-top/sirgas-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -112,14 +105,12 @@ Se venden junto con los cables.
 Martillos:
 
 ```{image} ./images/soft-top/hummer-1.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/soft-top/hummer-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -129,14 +120,12 @@ Martillos:
 Aletas:
 
 ```{image} ./images/soft-top/wing-1.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/soft-top/wing-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -145,7 +134,6 @@ Aletas:
 Martillo y aleta unidos:
 
 ```{image} ./images/soft-top/hummer-and-wing.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -157,7 +145,6 @@ Ref: MQ0014825V002000000 (verificado)
 Nombre oficial: "Catch front" / "Cierre del"
 
 ```{image} ./images/soft-top/front-catch.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -169,7 +156,6 @@ Ref: 0010741 V001 0000 00
 Nombre oficial: "Spring y-compensator" / "resorte a compresion comp"
 
 ```{image} ./images/soft-top/springs.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -181,7 +167,6 @@ Ref: MQ0014826V002000000 (no verificado)
 Nombre oficial: "roof cap holder"
 
 ```{image} ./images/soft-top/rear-catch.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -197,7 +182,6 @@ Ref: Q0011917V004C22A00 (verificado)
 Nombre: Member mount LH / Alojamiento de larguero
 
 ```{image} ./images/soft-top/soportes-maletero.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -209,7 +193,6 @@ Ref: Q00014829V001000000 (verificado)
 Nombre oficial: Cover B-PILLAR / Cubierta montante B
 
 ```{image} ./images/soft-top/embellecedores.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -244,7 +227,6 @@ Procedimiento
 Una vez retirada la moqueta:
 
 ```{image} ./images/soft-top/sin-moqueta.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -253,7 +235,6 @@ Una vez retirada la moqueta:
 Moqueta «hard-top» cortada:
 
 ```{image} ./images/soft-top/cut-carpet.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -266,7 +247,6 @@ El carrier está sujeto por 5 tornillos en la base y 3 más a cada lado. Estos t
 La pieza a substituir tiene una forma muy similar a la base del carrier, dado que está ahí para tapar el hueco correspondiente:
 
 ```{image} ./images/soft-top/carrier-placeholder.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -275,7 +255,6 @@ La pieza a substituir tiene una forma muy similar a la base del carrier, dado qu
 La pieza una vez fuera:
 
 ```{image} ./images/soft-top/carrier-placeholder-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -284,7 +263,6 @@ La pieza una vez fuera:
 Se deben retirar los soportes laterales del hard-top. En la siguiente foto aparece el derecho antes y después de retirarlo:
 
 ```{image} ./images/soft-top/hardtop-support.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -293,7 +271,6 @@ Se deben retirar los soportes laterales del hard-top. En la siguiente foto apare
 Soporte izquierdo del carrier:
 
 ```{image} ./images/soft-top/carrier-left-support.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -306,7 +283,6 @@ El mecanismo de accionamiento de la capota necesita dos conjuntos de cables, que
 Este cable se puede comprar en repuestos, pero solo mide un metro. Tendremos que añadir cable para llegar a la SAM.
 
 ```{image} ./images/soft-top/motor-wires.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -318,7 +294,6 @@ Nombre: "Repair set soft top" / "Conjunto de reparación ca"
 Conectores hembra en la base:
 
 ```{image} ./images/soft-top/carrier-motor-connectors.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -327,7 +302,6 @@ Conectores hembra en la base:
 Interruptor de seguridad lateral, ubicado tras el alojamiento trasero del larguero (roof bar):
 
 ```{image} ./images/soft-top/roofbar-switch.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -336,7 +310,6 @@ Interruptor de seguridad lateral, ubicado tras el alojamiento trasero del largue
 La siguiente imagen de la parte interior de la moqueta da una idea de por donde debe pasar el cable:
 
 ```{image} ./images/soft-top/motor-wire-route.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -345,7 +318,6 @@ La siguiente imagen de la parte interior de la moqueta da una idea de por donde 
 Y el recorrido aproximado del cable desde los conectores del motor hasta la SAM:
 
 ```{image} ./images/soft-top/motor-wire-route-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -354,14 +326,12 @@ Y el recorrido aproximado del cable desde los conectores del motor hasta la SAM:
 El soporte del asiento tiene unos pequeños huecos en el borde inferior que resultan ideales para pasar los cables pegados tras el asiento y en el borde del túnel:
 
 ```{image} ./images/soft-top/motor-wire-route-3.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/soft-top/motor-wire-route-4.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -370,7 +340,6 @@ El soporte del asiento tiene unos pequeños huecos en el borde inferior que resu
 Además es necesario instalar el mando de la consola que acciona la apertura y cierre. El conector se vende en repuestos de VW y Audi y es fácil de conseguir en desguace (por ejemplo, en los mandos del elevalunas del fortwo). El conector tiene indicados por detrás la numeración de los terminales.
 
 ```{image} ./images/soft-top/console-button.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -387,7 +356,6 @@ Los conectores de la SAM involucrados son:
 
 
 ```{image} ./images/soft-top/SAM-connectors.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -439,7 +407,6 @@ Los puntos de conexión W26 y Z29/4 son comunes a muchos componentes del coche.
 Pero estas conexiones se pueden hacer de un modo mucho más sencillo utilizando el conector del mando del elevalunas, que tiene conexiones a dichos lugares. Es sencillo siguiendo este esquema (las líneas discontinuas indican la conexión oficial equivalente.
 
 ```{image} ./images/soft-top/wiring-schema.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -515,7 +482,6 @@ mitad del carrier. Este punto también es muy importante mantenerlo limpio y lub
 
 
 ```{image} ./images/soft-top/gear-box.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -536,19 +502,16 @@ mitad del carrier. Este punto también es muy importante mantenerlo limpio y lub
 
 
 ```{image} ./images/soft-top/slider-hack-1.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 ```{image} ./images/soft-top/slider-hack-2.jpg
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 ```{image} ./images/soft-top/slider-hack-3.jpg
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center

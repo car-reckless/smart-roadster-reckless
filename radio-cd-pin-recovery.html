@@ -4,8 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recuperación del pin del Radio CD &#8212; Smart Roadster: Guía del aficionado temerario</title>
     
   <!-- Loaded before other Sphinx assets -->
@@ -222,6 +221,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="soft-top-install.html">
    Montaje de la capota
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="heating-system.html">
+   Averías de la calefacción
   </a>
  </li>
 </ul>
@@ -477,23 +481,23 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="recuperacion-del-pin-del-radio-cd">
+  <div class="tex2jax_ignore mathjax_ignore section" id="recuperacion-del-pin-del-radio-cd">
 <h1>Recuperación del pin del Radio CD<a class="headerlink" href="#recuperacion-del-pin-del-radio-cd" title="Permalink to this headline">#</a></h1>
 <p>(by Josep)</p>
 <p>El único objetivo de este tutorial es permitir a propietarios legítimos recuperar su código de seguridad, en el caso de que hayan perdido la tarjeta proporcionada por el fabricante en el momento de la compra.</p>
 <p>El Smart Roadster viene de serie con el equipo Grundig radio CD MRR.</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/radio-cd-2.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/radio-cd-2.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/radio-cd-2.png"><img alt="_images/radio-cd-2.png" class="bg-primary mb-1 align-center" src="_images/radio-cd-2.png" style="width: 100%;" /></a>
 <p>La radio almacena el código de seguridad (PIN) en una memoria EEPROM 24C08 con bus I2C. Para conseguir el PIN lo primero es leer el contenido de dicha memoria y después decodificarlo.</p>
-<section id="lector-rs232">
+<div class="section" id="lector-rs232">
 <h2>Lector RS232<a class="headerlink" href="#lector-rs232" title="Permalink to this headline">#</a></h2>
 <p>Esta memoria se puede leer con un sencillo circuito que se conecta directamente a sus patas por un lado y al puerto serie de un PC por el otro.</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/eeprom-programmer.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/eeprom-programmer.png" style="width: 80%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/eeprom-programmer.png"><img alt="_images/eeprom-programmer.png" class="bg-primary mb-1 align-center" src="_images/eeprom-programmer.png" style="width: 80%;" /></a>
 <p>El pinout del chip de memoria es el siguiente:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/pinout.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/pinout.png" style="width: 20%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/pinout.png"><img alt="_images/pinout.png" class="bg-primary mb-1 align-center" src="_images/pinout.png" style="width: 20%;" /></a>
 <p>El cable montado queda así:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/reader-1.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/reader-1.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/reader-1.png"><img alt="_images/reader-1.png" class="bg-primary mb-1 align-center" src="_images/reader-1.png" style="width: 100%;" /></a>
 <p>Otro montaje utilizando placa de prototipos:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/reader-2.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/reader-2.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/reader-2.png"><img alt="_images/reader-2.png" class="bg-primary mb-1 align-center" src="_images/reader-2.png" style="width: 100%;" /></a>
 <p>Los componentes necesarios son:</p>
 <ul class="simple">
 <li><p>Conector DB9</p></li>
@@ -503,34 +507,34 @@ title="Print to PDF"
 </ul>
 <p>El cable de la foto está montado directamente soldando los componentes y aislándolos con termoretractil.</p>
 <p>Por tanto, tenemos el conector DB9 en un extremo y tres cables que corresponden con SCL, SDA y GND en el otro extremo. Los cables que corresponden a SCL y SDA deberían ser muy finos pues se deben soldar directamente a las patitas de la memoria (que es de tipo SMD). El tercero (la malla) se suelda a masa.</p>
-</section>
-<section id="desmontando-la-radio">
+</div>
+<div class="section" id="desmontando-la-radio">
 <h2>Desmontando la radio<a class="headerlink" href="#desmontando-la-radio" title="Permalink to this headline">#</a></h2>
 <p>Hay que sacar la tapa superior, que no lleva tornillos. Sale levantando de las esquinas:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-1.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-1.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-2.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-2.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-3.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-3.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-1.png"><img alt="_images/unmount-1.png" class="bg-primary mb-1 align-center" src="_images/unmount-1.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-2.png"><img alt="_images/unmount-2.png" class="bg-primary mb-1 align-center" src="_images/unmount-2.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-3.png"><img alt="_images/unmount-3.png" class="bg-primary mb-1 align-center" src="_images/unmount-3.png" style="width: 100%;" /></a>
 <p>Cuidado con las pestañas del frontal, hay que levantar completamente la tapa para sacarla sin romperlas:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-4.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-4.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-5.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-5.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-6.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-6.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-4.png"><img alt="_images/unmount-4.png" class="bg-primary mb-1 align-center" src="_images/unmount-4.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-5.png"><img alt="_images/unmount-5.png" class="bg-primary mb-1 align-center" src="_images/unmount-5.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-6.png"><img alt="_images/unmount-6.png" class="bg-primary mb-1 align-center" src="_images/unmount-6.png" style="width: 100%;" /></a>
 <p>Está montados con tornillos TORX T9:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-7.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-7.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-8.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-8.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-7.png"><img alt="_images/unmount-7.png" class="bg-primary mb-1 align-center" src="_images/unmount-7.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-8.png"><img alt="_images/unmount-8.png" class="bg-primary mb-1 align-center" src="_images/unmount-8.png" style="width: 100%;" /></a>
 <p>Levantando por el lado derecho visto desde atrás, veremos en el otro lado el cable plano que lo conecta:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-9.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-9.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-9.png"><img alt="_images/unmount-9.png" class="bg-primary mb-1 align-center" src="_images/unmount-9.png" style="width: 100%;" /></a>
 <p>Empujando las pestañas de cada lado se abre el bloqueo del conector y se puede sacar el cable:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-10.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-10.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-11.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-11.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-12.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-12.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-13.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-13.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-14.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-14.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-15.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-15.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-10.png"><img alt="_images/unmount-10.png" class="bg-primary mb-1 align-center" src="_images/unmount-10.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-11.png"><img alt="_images/unmount-11.png" class="bg-primary mb-1 align-center" src="_images/unmount-11.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-12.png"><img alt="_images/unmount-12.png" class="bg-primary mb-1 align-center" src="_images/unmount-12.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-13.png"><img alt="_images/unmount-13.png" class="bg-primary mb-1 align-center" src="_images/unmount-13.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-14.png"><img alt="_images/unmount-14.png" class="bg-primary mb-1 align-center" src="_images/unmount-14.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-15.png"><img alt="_images/unmount-15.png" class="bg-primary mb-1 align-center" src="_images/unmount-15.png" style="width: 100%;" /></a>
 <p>O lo mismo, pero con pinzas, para no tener que soldar:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-16.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-16.png" style="width: 100%;" /></a>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-17.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/unmount-17.png" style="width: 100%;" /></a>
-</section>
-<section id="lectura-de-la-memoria">
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-16.png"><img alt="_images/unmount-16.png" class="bg-primary mb-1 align-center" src="_images/unmount-16.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/unmount-17.png"><img alt="_images/unmount-17.png" class="bg-primary mb-1 align-center" src="_images/unmount-17.png" style="width: 100%;" /></a>
+</div>
+<div class="section" id="lectura-de-la-memoria">
 <h2>Lectura de la memoria<a class="headerlink" href="#lectura-de-la-memoria" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
 <li><p>Conecta el cable al puerto serie del PC.</p></li>
@@ -543,19 +547,19 @@ title="Print to PDF"
 <li><p>Pulsa el botón de lectura en el PonyProg, y en cuanto la lea.</p></li>
 <li><p>Inmediatamente quita la alimentación de la radio.</p></li>
 </ul>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/reading.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/reading.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/reading.png"><img alt="_images/reading.png" class="bg-primary mb-1 align-center" src="_images/reading.png" style="width: 100%;" /></a>
 <p>Arrancamos el Grundig WKC Series Code Calculator 4.00, que se puede encontrar en:
 <a class="reference external" href="http://data.autorepairmanuals.ws/18b7ae227cb984888ecced1a26270a85">http://data.autorepairmanuals.ws/18b7ae227cb984888ecced1a26270a85</a>
 Cuidado con los virus!</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/code-calculator-1.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/code-calculator-1.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/code-calculator-1.png"><img alt="_images/code-calculator-1.png" class="bg-primary mb-1 align-center" src="_images/code-calculator-1.png" style="width: 100%;" /></a>
 <p>Elige el modelo “Challenge 600 CD” y escribe los datos en hexadecimal que aparecen a partir de la dirección 000010. En el caso de la lectura anterior son: <strong>b0 8e 84 9c bf 18</strong>. Después pulsa “Repair My Dump” y el programa mostrará el PIN una vez descifrado.</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/code-calculator-2.png"><img alt="SAM-up" class="bg-primary mb-1 align-center" src="_images/code-calculator-2.png" style="width: 100%;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/code-calculator-2.png"><img alt="_images/code-calculator-2.png" class="bg-primary mb-1 align-center" src="_images/code-calculator-2.png" style="width: 100%;" /></a>
 <p>Por si quieres comprobar que funciona correctamente, otra secuencia válida es:</p>
 <ul class="simple">
 <li><p><strong>2b 5b 1f 49 24 32</strong> que corresponde al PIN <strong>6540</strong>.</p></li>
 </ul>
-</section>
-</section>
+</div>
+</div>
 
     <script type="text/x-thebe-config">
     {

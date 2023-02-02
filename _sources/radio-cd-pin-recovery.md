@@ -7,7 +7,6 @@ El único objetivo de este tutorial es permitir a propietarios legítimos recupe
 El Smart Roadster viene de serie con el equipo Grundig radio CD MRR.
 
 ```{image} ./images/radio-cd/radio-cd-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -20,7 +19,6 @@ La radio almacena el código de seguridad (PIN) en una memoria EEPROM 24C08 con 
 Esta memoria se puede leer con un sencillo circuito que se conecta directamente a sus patas por un lado y al puerto serie de un PC por el otro.
 
 ```{image} ./images/radio-cd/eeprom-programmer.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 80%
 :align: center
@@ -29,7 +27,6 @@ Esta memoria se puede leer con un sencillo circuito que se conecta directamente 
 El pinout del chip de memoria es el siguiente:
 
 ```{image} ./images/radio-cd/pinout.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 20%
 :align: center
@@ -38,7 +35,6 @@ El pinout del chip de memoria es el siguiente:
 El cable montado queda así:
 
 ```{image} ./images/radio-cd/reader-1.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -48,7 +44,6 @@ Otro montaje utilizando placa de prototipos:
 
 
 ```{image} ./images/radio-cd/reader-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -71,21 +66,18 @@ Por tanto, tenemos el conector DB9 en un extremo y tres cables que corresponden 
 Hay que sacar la tapa superior, que no lleva tornillos. Sale levantando de las esquinas:
 
 ```{image} ./images/radio-cd/unmount-1.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/radio-cd/unmount-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/radio-cd/unmount-3.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -94,21 +86,18 @@ Hay que sacar la tapa superior, que no lleva tornillos. Sale levantando de las e
 Cuidado con las pestañas del frontal, hay que levantar completamente la tapa para sacarla sin romperlas:
 
 ```{image} ./images/radio-cd/unmount-4.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/radio-cd/unmount-5.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/radio-cd/unmount-6.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -117,14 +106,12 @@ Cuidado con las pestañas del frontal, hay que levantar completamente la tapa pa
 Está montados con tornillos TORX T9:
 
 ```{image} ./images/radio-cd/unmount-7.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/radio-cd/unmount-8.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -134,7 +121,6 @@ Levantando por el lado derecho visto desde atrás, veremos en el otro lado el ca
 
 
 ```{image} ./images/radio-cd/unmount-9.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -144,37 +130,31 @@ Empujando las pestañas de cada lado se abre el bloqueo del conector y se puede 
 
 
 ```{image} ./images/radio-cd/unmount-10.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 ```{image} ./images/radio-cd/unmount-11.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 ```{image} ./images/radio-cd/unmount-12.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 ```{image} ./images/radio-cd/unmount-13.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 ```{image} ./images/radio-cd/unmount-14.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 ```{image} ./images/radio-cd/unmount-15.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -183,14 +163,12 @@ Empujando las pestañas de cada lado se abre el bloqueo del conector y se puede 
 O lo mismo, pero con pinzas, para no tener que soldar:
 
 ```{image} ./images/radio-cd/unmount-16.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/radio-cd/unmount-17.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -210,7 +188,6 @@ La siguiente operación debe ser muy rápida.
 
 
 ```{image} ./images/radio-cd/reading.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -222,7 +199,6 @@ Cuidado con los virus!
 
 
 ```{image} ./images/radio-cd/code-calculator-1.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -231,7 +207,6 @@ Cuidado con los virus!
 Elige el modelo "Challenge 600 CD" y escribe los datos en hexadecimal que aparecen a partir de la dirección 000010. En el caso de la lectura anterior son: **b0 8e 84 9c bf 18**. Después pulsa "Repair My Dump" y el programa mostrará el PIN una vez descifrado.
 
 ```{image} ./images/radio-cd/code-calculator-2.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center

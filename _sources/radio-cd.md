@@ -1,7 +1,6 @@
 # Radio CD
 
 ```{image} ./images/radio-cd/radio-cd.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
@@ -15,14 +14,12 @@
 
 
 ```{image} ./images/radio-cd/aux-input.jpg
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
 ```{image} ./images/radio-cd/jack-cable.png
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center

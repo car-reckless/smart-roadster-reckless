@@ -1,7 +1,6 @@
 Version: 2023-01-27
 
 ```{image} ./images/upsidedown.jpg
-:alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
