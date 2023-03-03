@@ -16,11 +16,11 @@ propia llave y la del botón presionado. De hecho, el cable que lleva la señal
 hasta la SAM va desde el receptor IR al receptor RF y de allí a la SAM.
 
 
-## IR receiver
+## Receptor IR
 
 Está justo por encima de la luz de cortesía por el interior del marco del
 parabrisas, sobresale una pequeña cúpula semiesférica color caramelo.
-    
+
 - La llave IR necesita 2 pilas BR1225.
 
 ```{image} ./images/keys/ir-receiver-1.png
@@ -72,7 +72,7 @@ asientos, oculto entre la palanca y el freno de mano, debajo de la moqueta.
 La llave RF necesita una pila CR2016 (Ref: Q0007809V002) o CR2020 si cabe en el
 portapilas.
 
-```{image} ./images/keys/rf-receiver-1.png
+```{image} ./images/keys/rf-receiver-3.png
 :class: bg-primary mb-1
 :width: 800px
 :align: center
@@ -100,7 +100,7 @@ Es perfectamente posible disponer de los dos sistemas simultáneamente. En el
 caso de coches con IR de serie, simplemente es necesario instalar el receptor en
 su lugar, ya que el conector y el cableado vienen de serie. Solo hay que
 desmontar el plástico que cubre la palanca de cambios y el freno de mano, y
-buscar el conector en el hueco entre ambos. 
+buscar el conector en el hueco entre ambos.
 
 Puede ser necesario cortar un poco la moqueta para poder extraerlo, teniendo
 cuidado de no dañar ninguno de los cables que pasan por esa zona. Se debe evitar
