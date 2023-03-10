@@ -12,14 +12,20 @@ adelante solo “botón”) y el contacto (llave en posición 1).
 - Antes de 10s, pulsa (y mantén) el botón y da el contacto (ambos a la vez).
 - Sigue manteniendo apretado el botón hasta que indique 10.000 km.
 
-## Oil
+
+## Pila de la llave
+
+- Llave IR: BR 1225
+- Llave RF: CR 2016
+
+## Aceite motor
 
 - Tipo: 5W40
 - Standard: mb 229.5
 - Volumen
   - Con el filtro original: 3.5 litros
   - Con adaptador: 275-325 ml más
-  
+
 +info: https://www.evilution.co.uk/415
 
 ## Bujías
