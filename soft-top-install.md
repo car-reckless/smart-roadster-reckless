@@ -1,6 +1,8 @@
 # Instalación de la capota
 
-Esta receta explica la instalación de la capota (soft top) en un Smart Roadster hard-top. Como siempre, con la inestimable ayuda de Josep, Maxito, Davichini y demás gentes de bien de Forosmart.
+Esta receta explica la instalación de la capota (soft top) en un Smart Roadster hard-top.
+Como siempre, con la inestimable ayuda de Josep, Maxito, Davichini y demás gentes de bien
+de Forosmart.
 
 Iré escribiendo conforme vaya avanzando, así que esto es "work in progress"...
 
@@ -22,9 +24,8 @@ Inventario de piezas
 
 **Carrier**
 
-Ref: Q0009862V011000000 (no verificado)
-Nombre oficial: ?
-Es la pieza principal que incluye el motor y los raíles por los que se desplazan las piezas móviles.
+Ref: Q0009862V011000000 (no verificado) Nombre oficial: ? Es la pieza principal que
+incluye el motor y los raíles por los que se desplazan las piezas móviles.
 
 
 **Motor**
@@ -208,21 +209,26 @@ La capota de tela propiamente dicha.
 
 ## Sacando la moqueta
 
-La moqueta del roadster soft-top es diferente a la del hard-top, en concreto la pieza tras los asientos hasta la tapa del motor. La versión soft-top tiene unos cortes que dejan hueco al soporte del carrier.
-A continuación aparecen las medidas y patrones para cortar la moqueta hard-top si no puedes conseguir una moqueta soft-top.
+La moqueta del roadster soft-top es diferente a la del hard-top, en concreto la pieza tras
+los asientos hasta la tapa del motor. La versión soft-top tiene unos cortes que dejan
+hueco al soporte del carrier. A continuación aparecen las medidas y patrones para cortar
+la moqueta hard-top si no puedes conseguir una moqueta soft-top.
 
 [PENDIENTE]
 
 En todo caso, es necesario quitarla para montar el cableado.
 Procedimiento
 
-1. Quita los asientos. Coloca los tornillos en su tuerca o de lo contrario las tuercas pueden perderse bajo el suelo.
-1. Quita pomo de la palanca de cambio. Sale a presión. Cuidado de no pulsar el botón o se romperá al tirar.
+1. Quita los asientos. Coloca los tornillos en su tuerca o de lo contrario las tuercas
+   pueden perderse bajo el suelo.
+1. Quita pomo de la palanca de cambio. Sale a presión. Cuidado de no pulsar el botón o se
+   romperá al tirar.
 1. Quita la cubierta de la palanca de cambio.
 1. Retira tornillos de las guías de los cinturones.
 1. Retira los paneles que cubren los mecanismos de los cinturones.
 1. Retira los embellecedores de los puntos de anclaje del techo rígido.
-1. Retira las piezas de moqueta tras los asientos. La pieza del suelo no es necesario quitarla, se puede trabajar razonablemente levantando de un lado.
+1. Retira las piezas de moqueta tras los asientos. La pieza del suelo no es necesario
+   quitarla, se puede trabajar razonablemente levantando de un lado.
 
 Una vez retirada la moqueta:
 
@@ -242,9 +248,11 @@ Moqueta «hard-top» cortada:
 
 ## Instalación del carrier
 
-El carrier está sujeto por 5 tornillos en la base y 3 más a cada lado. Estos tornillos están ya en el coche, puesto que se trata de sustituir las piezas actuales por el carrier.
+El carrier está sujeto por 5 tornillos en la base y 3 más a cada lado. Estos tornillos
+están ya en el coche, puesto que se trata de sustituir las piezas actuales por el carrier.
 
-La pieza a substituir tiene una forma muy similar a la base del carrier, dado que está ahí para tapar el hueco correspondiente:
+La pieza a substituir tiene una forma muy similar a la base del carrier, dado que está ahí
+para tapar el hueco correspondiente:
 
 ```{image} ./images/soft-top/carrier-placeholder.png
 :class: bg-primary mb-1
@@ -260,7 +268,8 @@ La pieza una vez fuera:
 :align: center
 ```
 
-Se deben retirar los soportes laterales del hard-top. En la siguiente foto aparece el derecho antes y después de retirarlo:
+Se deben retirar los soportes laterales del hard-top. En la siguiente foto aparece el
+derecho antes y después de retirarlo:
 
 ```{image} ./images/soft-top/hardtop-support.png
 :class: bg-primary mb-1
@@ -278,9 +287,12 @@ Soporte izquierdo del carrier:
 
 ## Instalación del cableado del motor
 
-El mecanismo de accionamiento de la capota necesita dos conjuntos de cables, que van desde la SAM hasta el soporte del mecanismo de la capota. Estos cables van bajo la moqueta pasando a un lado de la base de la palanca de marchas.
+El mecanismo de accionamiento de la capota necesita dos conjuntos de cables, que van desde
+la SAM hasta el soporte del mecanismo de la capota. Estos cables van bajo la moqueta
+pasando a un lado de la base de la palanca de marchas.
 
-Este cable se puede comprar en repuestos, pero solo mide un metro. Tendremos que añadir cable para llegar a la SAM.
+Este cable se puede comprar en repuestos, pero solo mide un metro. Tendremos que añadir
+cable para llegar a la SAM.
 
 ```{image} ./images/soft-top/motor-wires.png
 :class: bg-primary mb-1
@@ -299,7 +311,8 @@ Conectores hembra en la base:
 :align: center
 ```
 
-Interruptor de seguridad lateral, ubicado tras el alojamiento trasero del larguero (roof bar):
+Interruptor de seguridad lateral, ubicado tras el alojamiento trasero del larguero (roof
+bar):
 
 ```{image} ./images/soft-top/roofbar-switch.png
 :class: bg-primary mb-1
@@ -307,7 +320,8 @@ Interruptor de seguridad lateral, ubicado tras el alojamiento trasero del largue
 :align: center
 ```
 
-La siguiente imagen de la parte interior de la moqueta da una idea de por donde debe pasar el cable:
+La siguiente imagen de la parte interior de la moqueta da una idea de por donde debe pasar
+el cable:
 
 ```{image} ./images/soft-top/motor-wire-route.png
 :class: bg-primary mb-1
@@ -323,7 +337,8 @@ Y el recorrido aproximado del cable desde los conectores del motor hasta la SAM:
 :align: center
 ```
 
-El soporte del asiento tiene unos pequeños huecos en el borde inferior que resultan ideales para pasar los cables pegados tras el asiento y en el borde del túnel:
+El soporte del asiento tiene unos pequeños huecos en el borde inferior que resultan
+ideales para pasar los cables pegados tras el asiento y en el borde del túnel:
 
 ```{image} ./images/soft-top/motor-wire-route-3.png
 :class: bg-primary mb-1
@@ -337,7 +352,10 @@ El soporte del asiento tiene unos pequeños huecos en el borde inferior que resu
 :align: center
 ```
 
-Además es necesario instalar el mando de la consola que acciona la apertura y cierre. El conector se vende en repuestos de VW y Audi y es fácil de conseguir en desguace (por ejemplo, en los mandos del elevalunas del fortwo). El conector tiene indicados por detrás la numeración de los terminales.
+Además es necesario instalar el mando de la consola que acciona la apertura y cierre. El
+conector se vende en repuestos de VW y Audi y es fácil de conseguir en desguace (por
+ejemplo, en los mandos del elevalunas del fortwo). El conector tiene indicados por detrás
+la numeración de los terminales.
 
 ```{image} ./images/soft-top/console-button.png
 :class: bg-primary mb-1
@@ -404,7 +422,9 @@ Los puntos de conexión W26 y Z29/4 son comunes a muchos componentes del coche.
 - W26 está en el lado inferior derecho de la consola.
 - Z29/4 está  bajo la cubierta superior del volante.
 
-Pero estas conexiones se pueden hacer de un modo mucho más sencillo utilizando el conector del mando del elevalunas, que tiene conexiones a dichos lugares. Es sencillo siguiendo este esquema (las líneas discontinuas indican la conexión oficial equivalente.
+Pero estas conexiones se pueden hacer de un modo mucho más sencillo utilizando el conector
+del mando del elevalunas, que tiene conexiones a dichos lugares. Es sencillo siguiendo
+este esquema (las líneas discontinuas indican la conexión oficial equivalente.
 
 ```{image} ./images/soft-top/wiring-schema.png
 :class: bg-primary mb-1
@@ -412,25 +432,34 @@ Pero estas conexiones se pueden hacer de un modo mucho más sencillo utilizando 
 :align: center
 ```
 
-Los cables marrón van todos a masa. Según el fabricante deben conectarse al pin C2/5 (esto
-se refleja en el esquema anterior con la linea marrón discontinua), pero el pin 3 de los
-elevalunas también va a masa y queda mucho más a mano.
+Los cables marrón van todos a masa. Según el fabricante deben conectarse al pin N11-2/5
+(esto se refleja en el esquema anterior con la linea marrón discontinua), pero el pin 3 de
+los elevalunas también va a masa y queda mucho más a mano. Del mismo mode el cable que va
+a N11-5/7 (cable marrón/blanco) es la iluminación del LED del pulsador y se puede
+substituir también por el pin 5 del pulsador del elevalunas.
 
 
 ### Comprobación del motor
 
 Una vez conectado todo según el esquema anterior es hora de probar el motor:
 
-1. Comprueba que el fusible 29 (25A) está en su lugar. Muchos coches hard-top lo incluyen de serie.
-1. Desconecta el cable del motor de la capota, en caso de malfuncionamiento el motor podría no parar y causar daños antes de que pudieras quitar el contacto.
-1. Comprueba que el sensor de carga del maletero (la pieza de plástico grande, larga y abatible del carrier) está en posición vertical.
+1. Comprueba que el fusible 29 (25A) está en su lugar. Muchos coches hard-top lo incluyen
+   de serie.
+1. Desconecta el cable del motor de la capota, en caso de malfuncionamiento el motor
+   podría no parar y causar daños antes de que pudieras quitar el contacto.
+1. Comprueba que el sensor de carga del maletero (la pieza de plástico grande, larga y
+   abatible del carrier) está en posición vertical.
 1. Quita el hard-top y los largueros.
-1. Coloca unas dardos Nerf para presionar los microinterruptores de seguridad a ambos lados.
-1. Pulsa el mando en la consola arriba y abajo. Deberías oír los relés de la SAM que comandan el motor.
+1. Coloca unas dardos Nerf para presionar los microinterruptores de seguridad a ambos
+   lados.
+1. Pulsa el mando en la consola arriba y abajo. Deberías oír los relés de la SAM que
+   comandan el motor.
 
 Si el paso anterior ha ido bien, conecta el cable de alimentación al motor de la capota.
 
-Acciona brevemente el mando y el cable tractor debería moverse. Muévelo solo unos centímetros teniendo cuidado de que las piezas del extremo del cable no quedan trabadas con el borde del rail.
+Acciona brevemente el mando y el cable tractor debería moverse. Muévelo solo unos
+centímetros teniendo cuidado de que las piezas del extremo del cable no quedan trabadas
+con el borde del rail.
 
 Ver vídeo: https://goo.gl/PnjP82
 
@@ -457,7 +486,8 @@ Ver vídeo: https://www.youtube.com/watch?v=UYF3A_4wMV4
 
 ### Lona
 
-- La lona se debe limpiar con agua y jabón neutro. Para una limpieza más profunda puedes utilizar Renovo Softtop cleaner.
+- La lona se debe limpiar con agua y jabón neutro. Para una limpieza más profunda puedes
+  utilizar Renovo Softtop cleaner.
 - Si la lona está descolorida puedes usar Renovo Reviver black.
 - Finalmente puedes impermeabilizar con Renovo Ultra Proofer
 
