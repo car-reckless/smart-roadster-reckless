@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pins no utilizados &#8212; Smart Roadster: Guía del aficionado temerario</title>
+    <title>Pinout de los conectores de la SAM &#8212; Smart Roadster: Guía del aficionado temerario</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -51,6 +51,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Reparación de retrovisores laterales" href="repair-side-mirror.html" />
+    <link rel="prev" title="Fusibles" href="fuse-layout.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -110,7 +112,7 @@ const thebe_selector_output = ".output, .cell_output"
   General
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="part-numbers.html">
    Part numbers
@@ -124,6 +126,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="fuse-layout.html">
    Fusibles
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Pinout de los conectores de la SAM
   </a>
  </li>
  <li class="toctree-l1">
@@ -398,23 +405,60 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pins-no-utilizados">
+   Pins no utilizados
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Pins no utilizados</h1>
+                <h1>Pinout de los conectores de la SAM</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pins-no-utilizados">
+   Pins no utilizados
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -422,12 +466,656 @@ title="Print to PDF"
                 
               <div>
                 
-  <div class="section" id="pins-no-utilizados">
-<h1>Pins no utilizados<a class="headerlink" href="#pins-no-utilizados" title="Permalink to this headline">#</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="pinout-de-los-conectores-de-la-sam">
+<h1>Pinout de los conectores de la SAM<a class="headerlink" href="#pinout-de-los-conectores-de-la-sam" title="Permalink to this headline">#</a></h1>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin</p></th>
+<th class="head"><p>color</p></th>
+<th class="head"><p>función</p></th>
+<th class="head"><p>fusible</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>N11-1/1</p></td>
+<td><p>Negro Amarillo/Blanco Negro</p></td>
+<td><p>Mando elevalunas</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-1/2</p></td>
+<td><p>Negro Rojo</p></td>
+<td><p>Motor calefación, asientos calefactables</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-1/3</p></td>
+<td><p>Negro Amarillo</p></td>
+<td><p>Conexiones del AA</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-1/4</p></td>
+<td><p>Rosa Rojo</p></td>
+<td><p>Mando limpiaparabrisas</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-1/5</p></td>
+<td><p>Violet</p></td>
+<td><p>Luces antinieblas delanteras</p></td>
+<td><p>13</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-1/6</p></td>
+<td><p>Rojo Negro</p></td>
+<td><p>Controlador ESP</p></td>
+<td><p>14</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-1/7</p></td>
+<td><p>Rosa</p></td>
+<td><p>Radio</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-1/8</p></td>
+<td><p></p></td>
+<td><p>Relé principal del motor</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-2/1</p></td>
+<td><p>Marrón Verde</p></td>
+<td><p>ECU (MEG)</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-2/2</p></td>
+<td><p>Negro</p></td>
+<td><p>Retrovisores y luneta trasera calefactable</p></td>
+<td><p>28</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-2/3</p></td>
+<td><p>Rojo Blanco</p></td>
+<td><p>Ordenador de viaje, OBD, speedo</p></td>
+<td><p>11</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-2/4</p></td>
+<td><p>Rojo Verde</p></td>
+<td><p>Safety triangle</p></td>
+<td><p>11</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-2/5</p></td>
+<td><p>Marrón</p></td>
+<td><p>Masa</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-2/6</p></td>
+<td><p>Amarillo</p></td>
+<td><p>Apertura de capota</p></td>
+<td><p>29</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-2/7</p></td>
+<td><p>Azul</p></td>
+<td><p>ECU (MEG / Relé AMT)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-2/8</p></td>
+<td><p>Rojo Blanco</p></td>
+<td><p>Cierre de capota</p></td>
+<td><p>29</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-3/1</p></td>
+<td><p></p></td>
+<td><p>Limpiaparabrisas trasero</p></td>
+<td><p>17</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-3/2</p></td>
+<td><p>Gris/Verde</p></td>
+<td><p>Unidad de control ESP</p></td>
+<td><p>18</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-3/3</p></td>
+<td><p>Rojo/Amarillo</p></td>
+<td><p>Mandos de la capota y retrovisores elect.</p></td>
+<td><p>19</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-3/4</p></td>
+<td><p>Azul</p></td>
+<td><p>Ordenador de viaje, OBD, speedo, asientos</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-3/5</p></td>
+<td><p>Azul/Amarillo</p></td>
+<td><p>Mechero</p></td>
+<td><p>21</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-3/6</p></td>
+<td><p>Gris/Rojo</p></td>
+<td><p>Luces de cruce</p></td>
+<td><p>22</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-3/7</p></td>
+<td><p>Azul/Verde</p></td>
+<td><p>Luces de cruce</p></td>
+<td><p>23</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-3/8</p></td>
+<td><p>Blanco</p></td>
+<td><p>Luces largas</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-3/9</p></td>
+<td><p>Blanco/Azul</p></td>
+<td><p>Luces largas</p></td>
+<td><p>25</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-3/10</p></td>
+<td><p>Rojo/Negro</p></td>
+<td><p>Bomba de gasolina</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-3/11</p></td>
+<td><p>Azul/Rojo</p></td>
+<td><p>Sensor luz de freno</p></td>
+<td><p>26</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-3/12</p></td>
+<td><p>Rojo/Blanco or Verde/Blanco</p></td>
+<td><p>ECU (MEG)</p></td>
+<td><p>27</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-4/1</p></td>
+<td><p>Rojo Negro</p></td>
+<td><p>Posición de contacto</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-4/2</p></td>
+<td><p>Rojo Azul</p></td>
+<td><p>Conector Z24</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-5/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-5/2</p></td>
+<td><p></p></td>
+<td><p>Limpiaparabrisas trasero</p></td>
+<td><p>17</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-5/3</p></td>
+<td><p>Rojo</p></td>
+<td><p>Relé del limpiaparabrisas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-5/4</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-5/5</p></td>
+<td><p>Marrón</p></td>
+<td><p>Masa</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-5/6</p></td>
+<td><p>Rojo Blanco</p></td>
+<td><p>Palanca de luces</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-5/7</p></td>
+<td><p>Marrón Blanco</p></td>
+<td><p>Apertura maletero/elevalunas</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-5/8</p></td>
+<td><p>Rojo Verde</p></td>
+<td><p>Luz interior</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-5/9</p></td>
+<td><p>Marrón Amarillo/Gris</p></td>
+<td><p>Luces traseras</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-5/10</p></td>
+<td><p>Verde</p></td>
+<td><p>Connector Z36, EVAP solenoid purge valve</p></td>
+<td><p>30</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-5/11</p></td>
+<td><p>Negro Rosa</p></td>
+<td><p>ECU (MEG)</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-5/12</p></td>
+<td><p>Amarillo Negro</p></td>
+<td><p>Conector Z35</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-6/1</p></td>
+<td><p>Azul</p></td>
+<td><p>Starter</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-6/2</p></td>
+<td><p>Rosa</p></td>
+<td><p>Bomba de aire eléctica</p></td>
+<td><p>32</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-7/1</p></td>
+<td><p>Rojo Blanco</p></td>
+<td><p>Dirección asistida</p></td>
+<td><p>35</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-7/2</p></td>
+<td><p>Rojo</p></td>
+<td><p>Unidad de control ESP</p></td>
+<td><p>34</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-7/3</p></td>
+<td><p>Rojo Negro</p></td>
+<td><p>Ignicción principal</p></td>
+<td><p>33</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/2</p></td>
+<td><p>Marrón Blanco</p></td>
+<td><p>Masa</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/3</p></td>
+<td><p>Gris Rojo</p></td>
+<td><p>Palanca del limpiaparabrisas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/4</p></td>
+<td><p>Amarillo Blanco</p></td>
+<td><p>Cerradura puerta derecha</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/5</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/6</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/7</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/8</p></td>
+<td><p>Amarillo Verde</p></td>
+<td><p>Crash restraint</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/9</p></td>
+<td><p>Rosa Rojo</p></td>
+<td><p>Motor del limpiaparabrisas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/10</p></td>
+<td><p>Verde Azul</p></td>
+<td><p>Light stalk and trip PC</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/11</p></td>
+<td><p>Negro Verde</p></td>
+<td><p>Control de cruceso pin   2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/12</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/13</p></td>
+<td><p>Marrón</p></td>
+<td><p>Masa</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/14</p></td>
+<td><p>Blanco Negro</p></td>
+<td><p>Speedo CAN low</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/15</p></td>
+<td><p>Marrón Rojo</p></td>
+<td><p>Speedo CAN high</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/16</p></td>
+<td><p>Rojo</p></td>
+<td><p>volante</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/17</p></td>
+<td><p>Amarillo</p></td>
+<td><p>Wiper stalk</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/18</p></td>
+<td><p>Azul Negro</p></td>
+<td><p>Interruptor de puerta</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/19</p></td>
+<td><p>Amarillo Rojo</p></td>
+<td><p>Cerradura puerta izquierda</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/20</p></td>
+<td><p>Verde</p></td>
+<td><p>Interruptor de arranque</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/31</p></td>
+<td><p>Azul</p></td>
+<td><p>Mando del ventilador</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/32</p></td>
+<td><p>Azul Blanco</p></td>
+<td><p>Sensor de larguero capota</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/33</p></td>
+<td><p>Rosa Negro</p></td>
+<td><p>Sensor de larguero capota</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/34</p></td>
+<td><p>Gris</p></td>
+<td><p>Sensor freno de mano</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/35</p></td>
+<td><p>Blanco</p></td>
+<td><p>Alimentación motor de capota</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/36</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/37</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/38</p></td>
+<td><p>Gris Azul</p></td>
+<td><p>Contanto posición 2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-8/39</p></td>
+<td><p>Blanco Negro</p></td>
+<td><p>ECU y dirección asistida CAN low</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-8/40</p></td>
+<td><p>Marrón Rojo</p></td>
+<td><p>ECU y dirección asistida CAN high</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/1</p></td>
+<td><p>Negro Blanco</p></td>
+<td><p>Señal intermitente izquierdo</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/2</p></td>
+<td><p>Gris</p></td>
+<td><p>Mando AA posición 2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/3</p></td>
+<td><p>Blanco Gris</p></td>
+<td><p>Diagnósticos OBD</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/4</p></td>
+<td><p>Gris Azul</p></td>
+<td><p>Luz inteor</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/5</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/6</p></td>
+<td><p>Rosa</p></td>
+<td><p>Relé de antinieblas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/7</p></td>
+<td><p>Rosa Rojo</p></td>
+<td><p>Control de cruceso pin 1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/8</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/9</p></td>
+<td><p>Azul Amarillo</p></td>
+<td><p>Mando luces automáticas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/10</p></td>
+<td><p>Verde Azul</p></td>
+<td><p>Control de cruceso pin 3</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/11</p></td>
+<td><p>Negro Verde</p></td>
+<td><p>Señal interruptor derecho</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/12</p></td>
+<td><p>Violet Azul</p></td>
+<td><p>Mando luces de emergencia</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/13</p></td>
+<td><p>Azul</p></td>
+<td><p>Mando cierre centralizado</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/14</p></td>
+<td><p>Violet</p></td>
+<td><p>LIN Bus, luces auto, sensor lluvia</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/15</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/16</p></td>
+<td><p>Azul Blanco</p></td>
+<td><p>Relé del limpiaparabrisas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/17</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/18</p></td>
+<td><p>Azul Amarillo</p></td>
+<td><p>Mando luces automáticas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/19</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/20</p></td>
+<td><p>Blanco</p></td>
+<td><p>Receptor de llave remota</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/31</p></td>
+<td><p>Verde</p></td>
+<td><p>Mando AA posición 1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/32</p></td>
+<td><p>Negro Rojo</p></td>
+<td><p>Mando de la luna trasera calefactable</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/33</p></td>
+<td><p>Amarillo Rojo</p></td>
+<td><p>Palanca de luces</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/34</p></td>
+<td><p>Amarillo</p></td>
+<td><p>Palanca de luces</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/35</p></td>
+<td><p>Amarillo Verde</p></td>
+<td><p>Palanca de luces</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/36</p></td>
+<td><p>Verde Azul</p></td>
+<td><p>Palanca del limpiaparabrisas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/37</p></td>
+<td><p>Amarillo Negro</p></td>
+<td><p>Mando antinieblas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/38</p></td>
+<td><p>Azul</p></td>
+<td><p>Palanca de luces</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-9/39</p></td>
+<td><p>Negro Verde</p></td>
+<td><p>Palanca de luces</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-9/40</p></td>
+<td><p>Rojo Verde</p></td>
+<td><p>Palanca del limpiaparabrisas</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-10/1</p></td>
+<td><p>Marrón</p></td>
+<td><p>Foot well earth</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-10/2</p></td>
+<td><p>Blanco</p></td>
+<td><p>Compresor del AA</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>N11-10/3</p></td>
+<td><p>Marrón Verde</p></td>
+<td><p>Ventilador del radiador</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-10/4</p></td>
+<td><p>Blanco Azul</p></td>
+<td><p>Motor del cierre centralizado abierto</p></td>
+<td><p>31</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-10/5</p></td>
+<td><p>Gris Azul</p></td>
+<td><p>Motor del cierre centralizado cerrado</p></td>
+<td><p>31</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-10/6</p></td>
+<td><p>Azul Rojo</p></td>
+<td><p>Claxon</p></td>
+<td><p>31</p></td>
+</tr>
+<tr class="row-even"><td><p>N11-10/7</p></td>
+<td><p>Amarillo</p></td>
+<td><p>Ventialdor del Intercooler</p></td>
+<td><p>15</p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-10/8</p></td>
+<td><p>Rojo</p></td>
+<td><p>Bobina de apertura del maletero</p></td>
+<td><p>31</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>N11-11/1</p></td>
+<td><p>Rojo</p></td>
+<td><p>Positivo de batería</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="pins-no-utilizados">
+<h2>Pins no utilizados<a class="headerlink" href="#pins-no-utilizados" title="Permalink to this headline">#</a></h2>
 <p>N11-3/1 - motor del limpiaparabrisas trasero
 N11-5/1
 N11-5/2 - motor del limpiaparabrisas trasero
 N11-5/4</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -457,6 +1145,20 @@ N11-5/4</p>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="fuse-layout.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Fusibles</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="repair-side-mirror.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Reparación de retrovisores laterales</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             </footer>
         </div>
