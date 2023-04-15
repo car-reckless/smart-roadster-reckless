@@ -9,6 +9,7 @@ parts:
     - file: part-numbers
     - file: maintenance
     - file: fuse-layout
+    - file: SAM-pinout
     - file: repair-side-mirror
     - file: heated-seats
     - file: hardtop
