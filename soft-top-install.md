@@ -412,6 +412,11 @@ Pero estas conexiones se pueden hacer de un modo mucho más sencillo utilizando 
 :align: center
 ```
 
+Los cables marrón van todos a masa. Según el fabricante deben conectarse al pin C2/5 (esto
+se refleja en el esquema anterior con la linea marrón discontinua), pero el pin 3 de los
+elevalunas también va a masa y queda mucho más a mano.
+
+
 ### Comprobación del motor
 
 Una vez conectado todo según el esquema anterior es hora de probar el motor:
