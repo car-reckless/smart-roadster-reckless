@@ -38,5 +38,8 @@ parts:
     - file: SAM-virginizing
   - caption: MB Star
     chapters:
-    - file: adjust-lambda-sensor
-    - file: check-lambda-sensor
+    - file: Star-inmobilizer-teach-in
+    - file: Star-SAM-startup
+    - file: Star-tempomat
+    - file: Star-check-lambda-sensor
+    - file: Star-adjust-lambda-sensor
