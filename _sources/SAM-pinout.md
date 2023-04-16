@@ -1,8 +1,16 @@
-# Pinout de los conectores de la SAM
+# Conexiones de la SAM
+
+
+```{image} ./images/SAM-connectors.png
+:alt: fuse-layout
+:class: bg-primary mb-1
+:width: 800px
+:align: center
+```
 
 | Pin      | color                       | función                                    | fusible |
 | -------- | --------------------------- | ------------------------------------------ | ------- |
-| N11-1/1  | Negro Amarillo/Blanco Negro | Mando elevalunas                                 | 4       |
+| N11-1/1  | Negro Amarillo/Blanco Negro | Mando elevalunas                           | 4       |
 | N11-1/2  | Negro Rojo                  | Motor calefación, asientos calefactables   | 3       |
 | N11-1/3  | Negro Amarillo              | Conexiones del AA                          | 8       |
 | N11-1/4  | Rosa Rojo                   | Mando limpiaparabrisas                     | 2       |
