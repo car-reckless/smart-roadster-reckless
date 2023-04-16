@@ -33,7 +33,7 @@
 :align: center
 ```
 
-## Comprobación de la sonda lambda destrás del catalizador
+## Comprobación de la sonda lambda detrás del catalizador
 
 1. Menú principal
 1. Grupo de construcción
