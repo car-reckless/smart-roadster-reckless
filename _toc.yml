@@ -9,28 +9,34 @@ parts:
     - file: part-numbers
     - file: maintenance
     - file: fuse-layout
-    - file: SAM-pinout
-    - file: repair-side-mirror
     - file: heated-seats
     - file: hardtop
-    - file: coupe-side-windows
-    - file: coupe-rear-spoiler
     - file: sensor-de-giro
-    - file: softtip-direction-change
     - file: front-antifog
-    - file: diagnostics
     - file: keys-and-imobilizer
-    - file: oil-filter-adapter
     - file: clutch-actuator
     - file: CKP-sensor
     - file: homologaciones
-    - file: SAM-virginizing
     - file: dash
     - file: radio-cd
-    - file: radio-cd-pin-recovery
     - file: soft-top-install
     - file: heating-system
+    - file: diagnostics
+  - caption: Reparaciones
+    chapters:
+    - file: repair-side-mirror
+    - file: coupe-side-windows
+    - file: coupe-rear-spoiler
+  - caption: Hacks y mejoras
+    chapters:
+    - file: oil-filter-adapter
+    - file: radio-cd-pin-recovery
+    - file: softtip-direction-change
+  - caption: SAM
+    chapters:
+    - file: SAM-pinout
+    - file: SAM-virginizing
   - caption: MB Star
     chapters:
-    - file: check-lambda-sensor
     - file: adjust-lambda-sensor
+    - file: check-lambda-sensor
