@@ -19,13 +19,15 @@ Inventario de piezas
 - Soportes para guardar los largueros en el maletero delantero
 - Embellecedores del carrier
 - Mando de accionamiento en la consola
-- Lona con sus travesaños y cintas
+- Lona
 
 
 **Carrier**
 
-Ref: Q0009862V011000000 (no verificado) Nombre oficial: ? Es la pieza principal que
-incluye el motor y los raíles por los que se desplazan las piezas móviles.
+Ref: Q0009862V011000000 (no verificado)
+
+Es la pieza principal que incluye el motor y los raíles por los que se desplazan las
+piezas móviles.
 
 
 **Motor**
@@ -38,7 +40,7 @@ Ref: Q0009879V002000000 (no verificado)
 :align: center
 ```
 
-**Largueros (roof bar)**
+**Largueros (roof bars)**
 
 Ref: Q0009336V011C46L00 (no verificado)
 
@@ -50,8 +52,8 @@ Ref: Q0009336V011C46L00 (no verificado)
 
 **Patines (slider)**
 
-Ref: Q0014822V001000000 (verificado)
-Nombre oficial: "Slide hoop" / "Patín cercha"
+- Ref: Q0014822V001000000 (verificado)
+- Nombre oficial: "Slide hoop" / "Patín cercha"
 
 ```{image} ./images/soft-top/patines.png
 :class: bg-primary mb-1
@@ -61,8 +63,8 @@ Nombre oficial: "Slide hoop" / "Patín cercha"
 
 **Pestaña para patines**
 
-Ref: Q0022489V001000000 (verificado)
-Nombre oficial: "Funda de la capota"
+- Ref: Q0022489V001000000 (verificado)
+- Nombre oficial: "Funda de la capota"
 
 ```{image} ./images/soft-top/pestanas.png
 :class: bg-primary mb-1
@@ -80,8 +82,9 @@ Pestaña montada en el patín:
 
 **Cables (Sirgas)**
 
-Ref: Q0014817V003000000 (no verificado)
-Nombre oficial: ?
+- Ref: Q0014817V003000000 (no verificado)
+- Nombre oficial: ?
+
 Cable distanciador («distance»): Conecta dos piezas móviles dentro del raíl.
 
 ```{image} ./images/soft-top/sirgas.png
@@ -103,6 +106,7 @@ la izquierda del coche.
 **Martillos y aletas**
 
 Se venden junto con los cables.
+
 Martillos:
 
 ```{image} ./images/soft-top/hummer-1.png
@@ -142,8 +146,8 @@ Martillo y aleta unidos:
 
 **Ganchos frontales**
 
-Ref: MQ0014825V002000000 (verificado)
-Nombre oficial: "Catch front" / "Cierre del"
+- Ref: MQ0014825V002000000 (verificado)
+- Nombre oficial: "Catch front" / "Cierre del"
 
 ```{image} ./images/soft-top/front-catch.png
 :class: bg-primary mb-1
@@ -153,8 +157,8 @@ Nombre oficial: "Catch front" / "Cierre del"
 
 **Muelles para ganchos frontales**
 
-Ref: 0010741 V001 0000 00
-Nombre oficial: "Spring y-compensator" / "resorte a compresion comp"
+- Ref: 0010741 V001 0000 00
+- Nombre oficial: "Spring y-compensator" / "resorte a compresion comp"
 
 ```{image} ./images/soft-top/springs.png
 :class: bg-primary mb-1
@@ -164,8 +168,8 @@ Nombre oficial: "Spring y-compensator" / "resorte a compresion comp"
 
 **Ganchos traseros**
 
-Ref: MQ0014826V002000000 (no verificado)
-Nombre oficial: "roof cap holder"
+- Ref: MQ0014826V002000000 (no verificado)
+- Nombre oficial: "roof cap holder"
 
 ```{image} ./images/soft-top/rear-catch.png
 :class: bg-primary mb-1
@@ -175,12 +179,13 @@ Nombre oficial: "roof cap holder"
 
 **Soportes para los largueros**
 
-Son dos piezas extraíbles que permiten sujetar los largueros en el maletero delantero.
-Ref: 0011964V004C22A00 (verificado)
-Nombre: Member mount RH / Alojamiento de larguero
+- Ref: 0011964V004C22A00 (verificado)
+- Nombre: Member mount RH / Alojamiento de larguero
 
-Ref: Q0011917V004C22A00 (verificado)
-Nombre: Member mount LH / Alojamiento de larguero
+- Ref: Q0011917V004C22A00 (verificado)
+- Nombre: Member mount LH / Alojamiento de larguero
+
+Son dos piezas extraíbles que permiten sujetar los largueros en el maletero delantero.
 
 ```{image} ./images/soft-top/soportes-maletero.png
 :class: bg-primary mb-1
@@ -190,8 +195,8 @@ Nombre: Member mount LH / Alojamiento de larguero
 
 **Embellecedores para el carrier**
 
-Ref: Q00014829V001000000 (verificado)
-Nombre oficial: Cover B-PILLAR / Cubierta montante B
+- Ref: Q00014829V001000000 (verificado)
+- Nombre oficial: Cover B-PILLAR / Cubierta montante B
 
 ```{image} ./images/soft-top/embellecedores.png
 :class: bg-primary mb-1
@@ -199,22 +204,21 @@ Nombre oficial: Cover B-PILLAR / Cubierta montante B
 :align: center
 ```
 
-**Carrier**
-
-Es la pieza metálica por la que corre la capota.
-
 **Capota**
 
-La capota de tela propiamente dicha.
+La capota de lona con sus largueros y cintas.
+
+```{image} ./images/soft-top/soft-top.jpg
+:class: bg-primary mb-1
+:width: 100%
+:align: center
+```
 
 ## Sacando la moqueta
 
 La moqueta del roadster soft-top es diferente a la del hard-top, en concreto la pieza tras
 los asientos hasta la tapa del motor. La versión soft-top tiene unos cortes que dejan
-hueco al soporte del carrier. A continuación aparecen las medidas y patrones para cortar
-la moqueta hard-top si no puedes conseguir una moqueta soft-top.
-
-[PENDIENTE]
+hueco al soporte del carrier.
 
 En todo caso, es necesario quitarla para montar el cableado.
 Procedimiento
@@ -238,7 +242,7 @@ Una vez retirada la moqueta:
 :align: center
 ```
 
-Moqueta «hard-top» cortada:
+Moqueta «hard-top» recortada (si no puedes conseguir una moqueta de soft-top):
 
 ```{image} ./images/soft-top/cut-carpet.png
 :class: bg-primary mb-1
@@ -311,8 +315,8 @@ Conectores hembra en la base:
 :align: center
 ```
 
-Interruptor de seguridad lateral, ubicado tras el alojamiento trasero del larguero (roof
-bar):
+Detalle del interruptor de seguridad lateral, ubicado tras el alojamiento trasero del
+larguero (roof bar). Hay uno a cada lado:
 
 ```{image} ./images/soft-top/roofbar-switch.png
 :class: bg-primary mb-1
@@ -320,8 +324,8 @@ bar):
 :align: center
 ```
 
-La siguiente imagen de la parte interior de la moqueta da una idea de por donde debe pasar
-el cable:
+La siguiente imagen de la parte interior de la moqueta da una idea de por donde puede
+pasar el cable:
 
 ```{image} ./images/soft-top/motor-wire-route.png
 :class: bg-primary mb-1
@@ -381,7 +385,7 @@ Los conectores de la SAM involucrados son:
 
 ### Alimentación del motor
 
-Está formado por 2 hilos de 4.0 mm de sección con la siguiente disposición:
+Está formado por 2 hilos de 4.0 mm2 de sección con la siguiente disposición:
 
 | conector | hilo        | hacia       |
 | -------- | ----------- | ----------- |
@@ -391,7 +395,7 @@ Está formado por 2 hilos de 4.0 mm de sección con la siguiente disposición:
 
 ### Interruptores de seguridad
 
-Está formado por 3 hilos de 0.5 mm de sección. Los cables tienen colores diferentes antes
+Está formado por 3 hilos de 0.5 mm2 de sección. Los cables tienen colores diferentes antes
 y después del conector S2, como se muestra aquí:
 
 | antes           | conector S2 | hilo        | hacia        |
@@ -400,15 +404,15 @@ y después del conector S2, como se muestra aquí:
 | amarillo-marrón | Pin 2       | azul-blanco | Pin N11-8/32 |
 | negro-verde     | Pin 3       | rosa-negro  | Pin N11-8/33 |
 
-El Pin 2 del conector viene de los sensores (interruptores) que detectan los travesaños.
-La capota solo se puede cerrar si ambos conectores están cerrados (los travesaños están
+El Pin 2 del conector viene de los sensores (interruptores) que detectan los largueros.
+La capota solo se puede cerrar si ambos conectores están cerrados (los largueros están
 colocados en su posición).
 
 El Pin 3 del conector viene del sensor (interruptor) de la solapa de la capota. La capota
 solo se puede abrir si la solapa está levantada, es decir, supuestamente no hay carga en
 el maletero que obstruya la apertura.
 
-Interruptor del mando en la consola. Todos los hilos son de 0.5 mm de sección.
+Interruptor del mando en la consola. Todos los hilos son de 0.5 mm2 de sección.
 
 | conector     | hilo          | hacia        |
 | ------------ | ------------- | ------------ |
@@ -419,25 +423,22 @@ Interruptor del mando en la consola. Todos los hilos son de 0.5 mm de sección.
 
 Los puntos de conexión W26 y Z29/4 son comunes a muchos componentes del coche.
 
-- W26 está en el lado inferior derecho de la consola.
-- Z29/4 está  bajo la cubierta superior del volante.
+- W26 es un conector a masa con tuerca que está en el lado inferior derecho de la consola.
+- Z29/4 es la iluminación de la consola cuando se enciende las luces del coche. Esstá bajo
+  la cubierta superior del volante.
 
-Pero estas conexiones se pueden hacer de un modo mucho más sencillo utilizando el conector
-del mando del elevalunas, que tiene conexiones a dichos lugares. Es sencillo siguiendo
-este esquema (las líneas discontinuas indican la conexión oficial equivalente.
+Pero estas conexiones se pueden hacer de un modo mucho más sencillo utilizando en su lugar
+los pines que encontramos en el conector del mando del elevalunas, que tiene conexiones a
+dichos lugares.
+
+Es sencillo siguiendo este esquema (las líneas discontinuas indican la conexión oficial
+equivalente).
 
 ```{image} ./images/soft-top/wiring-schema.png
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
-
-Los cables marrón van todos a masa. Según el fabricante deben conectarse al pin N11-2/5
-(esto se refleja en el esquema anterior con la linea marrón discontinua), pero el pin 3 de
-los elevalunas también va a masa y queda mucho más a mano. Del mismo mode el cable que va
-a N11-5/7 (cable marrón/blanco) es la iluminación del LED del pulsador y se puede
-substituir también por el pin 5 del pulsador del elevalunas.
-
 
 ### Comprobación del motor
 
@@ -450,8 +451,8 @@ Una vez conectado todo según el esquema anterior es hora de probar el motor:
 1. Comprueba que el sensor de carga del maletero (la pieza de plástico grande, larga y
    abatible del carrier) está en posición vertical.
 1. Quita el hard-top y los largueros.
-1. Coloca unas dardos Nerf para presionar los microinterruptores de seguridad a ambos
-   lados.
+1. Coloca unas dardos Nerf para presionar los microinterruptores de seguridad laterales
+   del carrier.
 1. Pulsa el mando en la consola arriba y abajo. Deberías oír los relés de la SAM que
    comandan el motor.
 
