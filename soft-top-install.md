@@ -466,14 +466,14 @@ Ver vídeo: https://goo.gl/PnjP82
 
 ## Colocación de la lona
 
-```{image} ./images/soft-top/soft-top-parts.svg
+```{image} ./images/soft-top/soft-top-parts.png
 :alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
 :align: center
 ```
 
-```{image} ./images/soft-top/mounting.svg
+```{image} ./images/soft-top/mounting.png
 :alt: SAM-up
 :class: bg-primary mb-1
 :width: 100%
