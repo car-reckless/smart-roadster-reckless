@@ -11,8 +11,7 @@
         ],
     },
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#b8b8b871",
-        "statusBar.background": "#E74C3C"
+        "editor.lineHighlightBackground": "#b8b8b871"
     },
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#b8b8b871",
