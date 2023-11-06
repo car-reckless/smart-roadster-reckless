@@ -50,14 +50,23 @@ adelante solo “botón”) y el contacto (llave en posición 1).
 ## Muelles neumáticos
 
 - Maletero delantero
-  - 297 mm
+  - longitud: 297 mm
+  - carrera: ¿106?
   - 240 N
   - Compatibles:
     - Oscaro: Magneti Marelli, Ref-430719087800
     - https://www.autodoc.es/trucktec-automotive/8573228
     - https://www.expertoautorecambios.es/trucktec-automotive-8573228
+    - STABILUS // LIFT-O-MAT® 033465 https://www.autodoc.es/stabilus/294520
 - Maletero trasero (roadster)
+  - part number:
+  - longitud: 475 mm
+  - carrera: 200 mm
+  - 170 N
+  - Compatibles:
+    - MAGNETI MARELLI 430719090400: https://www.autodoc.es/magneti-marelli/7067464
 - Maletero trasero (roadster coupe)
   - part number: Q0011119V002000000
-  - 500/190 mm
+  - longitud: 500 mm
+  - carrera: 190 mm
   - 200 N
