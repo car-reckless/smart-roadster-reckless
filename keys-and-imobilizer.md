@@ -69,6 +69,11 @@ valor en ohmios que debería tener.
 Su referencia es 000 3503 V003 y se encuentra sobre el túnel entre los dos
 asientos, oculto entre la palanca y el freno de mano, debajo de la moqueta.
 
+La llave RF es mucho más fácil de conseguir y más barata que la IR porque es la misma que
+lleva el fortwo 451 y los roadster en el resto de Europa. Se puede encontrar fácilmente en
+Aliexpress e incluso en Amazon buscando «smart remote key 433 MHz». Asegúrate que lleva el
+circuito poque también se vende solo la llave vacía.
+
 La llave RF necesita una pila CR2016 (Ref: Q0007809V002) o CR2020 si cabe en el
 portapilas.
 

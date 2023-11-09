@@ -43,3 +43,6 @@ parts:
     - file: Star-tempomat
     - file: Star-check-lambda-sensor
     - file: Star-adjust-lambda-sensor
+  - caption: Delphi
+    chapters:
+    - file: Delphi-key-programming

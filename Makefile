@@ -1,5 +1,5 @@
 build:
-	jupyter-book build .
+	poetry run jupyter-book build .
 
 view: build
 	open _build/html/index.html

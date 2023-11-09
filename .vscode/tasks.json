@@ -4,7 +4,7 @@
         {
             "label": "jupyter-book-build",
             "type": "shell",
-            "command": "jupyter-book build .",
+            "command": "make build .",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
