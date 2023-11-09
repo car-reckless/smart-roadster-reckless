@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "smart-roadster-reckless"
+version = "0.1.0"
+description = ""
+authors = ["David Villa Alises <david.villa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "smart_roadster_reckless"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+jupyter-book = "^0.15.1"
+ghp-import = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
