@@ -7,7 +7,15 @@ LEDs, uno a cada lado del espadín.
 
 ```{image} ./images/keys/ir-key.png
 :class: bg-primary mb-1
-:width: 800px
+:width: 500px
+:align: center
+```
+
+Mientras que la RF no los tiene:
+
+```{image} ./images/keys/rf-key.jpg
+:class: bg-primary mb-1
+:width: 600px
 :align: center
 ```
 
@@ -60,7 +68,7 @@ valor en ohmios que debería tener.
 
 ```{image} ./images/keys/ir-receiver-pcb.png
 :class: bg-primary mb-1
-:width: 800px
+:width: 600px
 :align: center
 ```
 
