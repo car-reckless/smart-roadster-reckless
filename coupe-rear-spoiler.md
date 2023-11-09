@@ -1,4 +1,4 @@
-# Reparación del spoiler del coupé
+# Spoiler del coupé
 
 (by Gaby)
 
@@ -9,11 +9,11 @@
 ```
 
 - Se aumentado la grieta con dremel para hacer sitio para material.
-- Con epoxy bicomponente se rellenan las grietas. 
+- Con epoxy bicomponente se rellenan las grietas.
 - Pulir muy bien con lija fina.
 - Si queda algo visible, masillar con masilla para plásticos.
 - Lijar todo esta con agua
-- Pintar 
+- Pintar
 
 Yo hice la reparación a fondo de esta manera, pero la he preparado para skinning
 con tela de carbono (recubrimiento). Si la quieres mantener en original, hay que
