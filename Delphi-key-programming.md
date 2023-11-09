@@ -3,7 +3,7 @@
 Conecta la Delphi al coche y al computador. Arranca el programa y haz la selección que ves
 en la siguiente imagen.
 
-Pulsa el botón rojo del icono del motor con un signo + de la esquina inferior derecha.
+Pulsa el botón rojo del icono del motor con un signo '+'' de la esquina inferior derecha.
 
 ```{image} ./images/delphi/key-prog/1-select-SAM.png
 :class: bg-primary mb-1
