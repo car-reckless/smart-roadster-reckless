@@ -10,7 +10,6 @@ Pulsa el botón rojo del icono del motor con un signo '+'' de la esquina inferio
 :width: 800px
 :align: center
 ```
-·
 
 Pulsa el botón de «ajustes» (icono con llave y destronillador a la izquierda):
 
@@ -19,7 +18,6 @@ Pulsa el botón de «ajustes» (icono con llave y destronillador a la izquierda)
 :width: 800px
 :align: center
 ```
-·
 
 Elige la opción «Transponder key programming» en el menú:
 
@@ -28,7 +26,6 @@ Elige la opción «Transponder key programming» en el menú:
 :width: 800px
 :align: center
 ```
-·
 
 Aquí aparece una lista detallda de los pases durante el procedimiento de programación de
 las llasves. Antes de dar a «OK» debes asegurarte:
@@ -43,7 +40,6 @@ las llasves. Antes de dar a «OK» debes asegurarte:
 :width: 800px
 :align: center
 ```
-·
 
 Al pulsar «OK» irán apareciendo una serie de diálogo informativos:
 
@@ -52,7 +48,6 @@ Al pulsar «OK» irán apareciendo una serie de diálogo informativos:
 :width: 800px
 :align: center
 ```
-·
 
 Debes esperar hasta que salga el de esta imagen y acabe la barra de progreso:
 
@@ -61,7 +56,6 @@ Debes esperar hasta que salga el de esta imagen y acabe la barra de progreso:
 :width: 800px
 :align: center
 ```
-·
 
 Justo después de esto tienes que hacer lo que indicaba la lista de pasos desde el paso 3.
 Al terminar de programar las llaves (un máximo de 4 sean IR o RF) aparecerá el siguiente
@@ -72,6 +66,5 @@ diálogo.
 :width: 800px
 :align: center
 ```
-·
 
 Después de esto, quita el contacto y comprueba todas las llaves.

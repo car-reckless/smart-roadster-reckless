@@ -2,14 +2,16 @@
 
 Existen dos sistemas de apertura en el 452. En toda Europa se fabricó con un
 sistema basado en radiofrecuencia (RF) mientras que en España se vendió con un
-sistema por infrarrojos (IR). Es fácil diferenciarlos pues la llave IR tiene dos
-LEDs, uno a cada lado del espadín.
+sistema por infrarrojos (IR).
+
+Es fácil diferenciarlos pues la llave IR tiene dos LEDs, uno a cada lado del espadín.
 
 ```{image} ./images/keys/ir-key.png
 :class: bg-primary mb-1
 :width: 500px
 :align: center
 ```
+- La llave IR necesita 2 pilas BR1225.
 
 Mientras que la RF no los tiene:
 
@@ -18,10 +20,11 @@ Mientras que la RF no los tiene:
 :width: 600px
 :align: center
 ```
+- La llave RF necesita una pila CR2016 (Ref: Q0007809V002).
 
 En ambos casos, las llaves emiten una señal que incluye el identificador de la
 propia llave y la del botón presionado. De hecho, el cable que lleva la señal
-hasta la SAM va desde el receptor IR al receptor RF y de allí a la SAM.
+hasta la SAM es físicamente el mismo para ambos receptores.
 
 
 ## Receptor IR
@@ -29,7 +32,6 @@ hasta la SAM va desde el receptor IR al receptor RF y de allí a la SAM.
 Está justo por encima de la luz de cortesía por el interior del marco del
 parabrisas, sobresale una pequeña cúpula semiesférica color caramelo.
 
-- La llave IR necesita 2 pilas BR1225.
 
 ```{image} ./images/keys/ir-receiver-1.png
 :class: bg-primary mb-1
@@ -82,9 +84,6 @@ lleva el fortwo 451 y los roadster en el resto de Europa. Se puede encontrar fá
 Aliexpress e incluso en Amazon buscando «smart remote key 433 MHz». Asegúrate que lleva el
 circuito poque también se vende solo la llave vacía.
 
-La llave RF necesita una pila CR2016 (Ref: Q0007809V002) o CR2020 si cabe en el
-portapilas.
-
 ```{image} ./images/keys/rf-receiver-3.png
 :class: bg-primary mb-1
 :width: 800px
@@ -96,6 +95,7 @@ portapilas.
 :width: 800px
 :align: center
 ```
+
 
 En la siguiente foto está instalado sobre la moqueta, pero también hay espacio
 debajo de ella.

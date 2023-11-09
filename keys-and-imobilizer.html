@@ -35,6 +35,7 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/myfile.css" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -413,21 +414,24 @@ document.write(`
 <h1>Llaves e inmovilizador<a class="headerlink" href="#llaves-e-inmovilizador" title="Permalink to this heading">#</a></h1>
 <p>Existen dos sistemas de apertura en el 452. En toda Europa se fabricó con un
 sistema basado en radiofrecuencia (RF) mientras que en España se vendió con un
-sistema por infrarrojos (IR). Es fácil diferenciarlos pues la llave IR tiene dos
-LEDs, uno a cada lado del espadín.</p>
+sistema por infrarrojos (IR).</p>
+<p>Es fácil diferenciarlos pues la llave IR tiene dos LEDs, uno a cada lado del espadín.</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/ir-key.png"><img alt="_images/ir-key.png" class="bg-primary mb-1 align-center" src="_images/ir-key.png" style="width: 500px;" /></a>
+<ul class="simple">
+<li><p>La llave IR necesita 2 pilas BR1225.</p></li>
+</ul>
 <p>Mientras que la RF no los tiene:</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/rf-key.jpg"><img alt="_images/rf-key.jpg" class="bg-primary mb-1 align-center" src="_images/rf-key.jpg" style="width: 600px;" /></a>
+<ul class="simple">
+<li><p>La llave RF necesita una pila CR2016 (Ref: Q0007809V002).</p></li>
+</ul>
 <p>En ambos casos, las llaves emiten una señal que incluye el identificador de la
 propia llave y la del botón presionado. De hecho, el cable que lleva la señal
-hasta la SAM va desde el receptor IR al receptor RF y de allí a la SAM.</p>
+hasta la SAM es físicamente el mismo para ambos receptores.</p>
 <section id="receptor-ir">
 <h2>Receptor IR<a class="headerlink" href="#receptor-ir" title="Permalink to this heading">#</a></h2>
 <p>Está justo por encima de la luz de cortesía por el interior del marco del
 parabrisas, sobresale una pequeña cúpula semiesférica color caramelo.</p>
-<ul class="simple">
-<li><p>La llave IR necesita 2 pilas BR1225.</p></li>
-</ul>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/ir-receiver-1.png"><img alt="_images/ir-receiver-1.png" class="bg-primary mb-1 align-center" src="_images/ir-receiver-1.png" style="width: 800px;" /></a>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/ir-receiver-2.png"><img alt="_images/ir-receiver-2.png" class="bg-primary mb-1 align-center" src="_images/ir-receiver-2.png" style="width: 800px;" /></a>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/ir-receiver-3.png"><img alt="_images/ir-receiver-3.png" class="bg-primary mb-1 align-center" src="_images/ir-receiver-3.png" style="width: 800px;" /></a>
@@ -458,8 +462,6 @@ asientos, oculto entre la palanca y el freno de mano, debajo de la moqueta.</p>
 lleva el fortwo 451 y los roadster en el resto de Europa. Se puede encontrar fácilmente en
 Aliexpress e incluso en Amazon buscando «smart remote key 433 MHz». Asegúrate que lleva el
 circuito poque también se vende solo la llave vacía.</p>
-<p>La llave RF necesita una pila CR2016 (Ref: Q0007809V002) o CR2020 si cabe en el
-portapilas.</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/rf-receiver-3.png"><img alt="_images/rf-receiver-3.png" class="bg-primary mb-1 align-center" src="_images/rf-receiver-3.png" style="width: 800px;" /></a>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/rf-receiver-2.jpg"><img alt="_images/rf-receiver-2.jpg" class="bg-primary mb-1 align-center" src="_images/rf-receiver-2.jpg" style="width: 800px;" /></a>
 <p>En la siguiente foto está instalado sobre la moqueta, pero también hay espacio
