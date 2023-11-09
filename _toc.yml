@@ -9,17 +9,16 @@ parts:
     - file: part-numbers
     - file: maintenance
     - file: fuse-layout
+    - file: keys-and-imobilizer
     - file: heated-seats
-    - file: hardtop
     - file: sensor-de-giro
     - file: front-antifog
-    - file: keys-and-imobilizer
     - file: clutch-actuator
     - file: CKP-sensor
     - file: homologaciones
-    - file: dash
     - file: radio-cd
     - file: soft-top-install
+    - file: hardtop
     - file: heating-system
     - file: diagnostics
   - caption: Reparaciones
@@ -32,6 +31,7 @@ parts:
     - file: oil-filter-adapter
     - file: radio-cd-pin-recovery
     - file: softtip-direction-change
+    - file: dash
   - caption: SAM
     chapters:
     - file: SAM-pinout

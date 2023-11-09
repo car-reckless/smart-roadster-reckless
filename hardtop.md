@@ -4,7 +4,8 @@
 
 Los soportes traseros llevan anillas de nivelación. Lo habitual es:
 
-* Panel derecho: 2 anillas en el trasero y una en el delantero.
+* Panel derecho: 2 anillas en el trasero y 1 en el delantero, pero la idea es que se
+  ajuste en cada coche.
 
 ```{image} ./images/hardtop/1.png
 :class: bg-primary mb-1
