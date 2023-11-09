@@ -1,4 +1,4 @@
-# Instalación del filtro de aceite
+# Instalación del adaptador del filtro de aceite
 
 (by Josep)
 
