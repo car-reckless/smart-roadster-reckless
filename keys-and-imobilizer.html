@@ -64,8 +64,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'keys-and-imobilizer';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Ajuste del actuador de embrague" href="clutch-actuator.html" />
-    <link rel="prev" title="Luces antiniebla delanteras" href="front-antifog.html" />
+    <link rel="next" title="Asientos calefactables" href="heated-seats.html" />
+    <link rel="prev" title="Fusibles" href="fuse-layout.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -155,31 +155,31 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="part-numbers.html">Part numbers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="maintenance.html">Mantenimiento</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fuse-layout.html">Fusibles</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Llaves e inmovilizador</a></li>
 <li class="toctree-l1"><a class="reference internal" href="heated-seats.html">Asientos calefactables</a></li>
-<li class="toctree-l1"><a class="reference internal" href="hardtop.html">Hardtop</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sensor-de-giro.html">Alineación del sensor de giro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="front-antifog.html">Luces antiniebla delanteras</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Llaves e inmovilizador</a></li>
 <li class="toctree-l1"><a class="reference internal" href="clutch-actuator.html">Ajuste del actuador de embrague</a></li>
 <li class="toctree-l1"><a class="reference internal" href="CKP-sensor.html">Sustitución del sensor CKP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="homologaciones.html">Homologaciones</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dash.html">Programación del dash</a></li>
 <li class="toctree-l1"><a class="reference internal" href="radio-cd.html">Radio CD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="soft-top-install.html">Instalación de la capota</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardtop.html">Hardtop</a></li>
 <li class="toctree-l1"><a class="reference internal" href="heating-system.html">Averías de la calefacción</a></li>
 <li class="toctree-l1"><a class="reference internal" href="diagnostics.html">Equipos de programación y diagnóstico</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Reparaciones</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="repair-side-mirror.html">Reparación de retrovisores laterales</a></li>
-<li class="toctree-l1"><a class="reference internal" href="coupe-side-windows.html">Reparación de las ventanas laterales del coupé</a></li>
-<li class="toctree-l1"><a class="reference internal" href="coupe-rear-spoiler.html">Reparación del spoiler del coupé</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repair-side-mirror.html">Retrovisores laterales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="coupe-side-windows.html">Ventanas laterales del coupé</a></li>
+<li class="toctree-l1"><a class="reference internal" href="coupe-rear-spoiler.html">Spoiler del coupé</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Hacks y mejoras</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="oil-filter-adapter.html">Instalación del filtro de aceite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oil-filter-adapter.html">Instalación del adaptador del filtro de aceite</a></li>
 <li class="toctree-l1"><a class="reference internal" href="radio-cd-pin-recovery.html">Recuperación del pin del Radio CD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="softtip-direction-change.html">Cambio de sentido de la palanca de cambios</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dash.html">Programación del dash</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SAM</span></p>
 <ul class="nav bd-sidenav">
@@ -415,7 +415,9 @@ document.write(`
 sistema basado en radiofrecuencia (RF) mientras que en España se vendió con un
 sistema por infrarrojos (IR). Es fácil diferenciarlos pues la llave IR tiene dos
 LEDs, uno a cada lado del espadín.</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/ir-key.png"><img alt="_images/ir-key.png" class="bg-primary mb-1 align-center" src="_images/ir-key.png" style="width: 800px;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/ir-key.png"><img alt="_images/ir-key.png" class="bg-primary mb-1 align-center" src="_images/ir-key.png" style="width: 500px;" /></a>
+<p>Mientras que la RF no los tiene:</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/rf-key.jpg"><img alt="_images/rf-key.jpg" class="bg-primary mb-1 align-center" src="_images/rf-key.jpg" style="width: 600px;" /></a>
 <p>En ambos casos, las llaves emiten una señal que incluye el identificador de la
 propia llave y la del botón presionado. De hecho, el cable que lleva la señal
 hasta la SAM va desde el receptor IR al receptor RF y de allí a la SAM.</p>
@@ -445,7 +447,7 @@ valor en ohmios que debería tener.</p>
 <li><p>“3013” (304) -&gt; 300K</p></li>
 <li><p>“1011” (102) -&gt; 1K</p></li>
 </ol>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/ir-receiver-pcb.png"><img alt="_images/ir-receiver-pcb.png" class="bg-primary mb-1 align-center" src="_images/ir-receiver-pcb.png" style="width: 800px;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/ir-receiver-pcb.png"><img alt="_images/ir-receiver-pcb.png" class="bg-primary mb-1 align-center" src="_images/ir-receiver-pcb.png" style="width: 600px;" /></a>
 </section>
 </section>
 <section id="receptor-rf">
@@ -533,20 +535,20 @@ proceso modifica la configuración del coche, no de las llaves.</p>
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="front-antifog.html"
+       href="fuse-layout.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Luces antiniebla delanteras</p>
+        <p class="prev-next-title">Fusibles</p>
       </div>
     </a>
     <a class="right-next"
-       href="clutch-actuator.html"
+       href="heated-seats.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Ajuste del actuador de embrague</p>
+        <p class="prev-next-title">Asientos calefactables</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
