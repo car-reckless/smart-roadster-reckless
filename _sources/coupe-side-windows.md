@@ -1,4 +1,4 @@
-# Reparación de las ventanas laterales del coupé
+# Ventanas laterales del coupé
 
 ## Reparación de casquillos
 

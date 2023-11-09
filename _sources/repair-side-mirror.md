@@ -1,4 +1,4 @@
-# Reparación de retrovisores laterales
+# Retrovisores laterales
 
 ```{image} ./images/side-mirror/1.jpg
 :class: bg-primary mb-1
@@ -60,5 +60,3 @@
 :width: 800px
 :align: center
 ```
-
-
