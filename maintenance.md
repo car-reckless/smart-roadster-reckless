@@ -18,6 +18,21 @@ adelante solo “botón”) y el contacto (llave en posición 1).
 - Llave IR: BR 1225
 - Llave RF: CR 2016
 
+## Bombillas
+
+- Largas y cortas: H7
+- Intermitente delantero: PY21W
+- Intermitente trasero: PY21W
+- Intermitente lateral: W5WA
+- Freno: P21/5W
+- Tercera luz de freno: W2.3W
+- Marcha atrás: P21W
+- Matrícula: W5W
+- Antiniebla delantero: H3
+- Antiniebla trasero: P21W
+- Interior: W5W
+
+
 ## Aceite motor
 
 - Tipo: 5W40
