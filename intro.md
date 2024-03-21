@@ -12,7 +12,6 @@ La versión previa de este documento está en [google
 drive](https://docs.google.com/document/d/1cQ_I8cgq3bMA2WR1KymF16LnHuqVaUQ8Uf8r2FptAfU/edit#heading=h.4m4363o7sliv).
 Lo iré migrando aquí poco a poco.
 
-# Prólogo
 
 ```{tableofcontents}
 ```
