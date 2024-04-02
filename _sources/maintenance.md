@@ -13,10 +13,56 @@ adelante solo “botón”) y el contacto (llave en posición 1).
 - Sigue manteniendo apretado el botón hasta que indique 10.000 km.
 
 
+## Filtro de aire
+
+- Referencia Smart: Q0009997V001000000
+- BOSCH 1 457 433 084
+- MAHLE FILTER LX1792
+- MANN-FILTER C10362
+- HENGST E573L
+- K&N E-9257
+
+## Filtro de aceite
+
+- Referencia Smart: A1601840225
+- BOSCH 1 457 429 127
+- MANN-FILTER HU 68 x
+- MAHLE OX 346D
+
+## Filtro de habitáculo
+
+- Referencia Smart: Q0013871V001000000
+- BOSCH 1 987 432 434
+- MAHLE FILTER LAK25/1
+- MANN-FILTER CUK 1830
+- MANN-FILTER CUK 3360
+
+## Filtro de combustible
+
+- Referencia Smart: Q0003414V003000000
+- MANN-FILTER WK 6031
+- MANN-FILTER WK 612
+- HELLA HENGST H112WK
+
 ## Pila de la llave
 
 - Llave IR: BR 1225
 - Llave RF: CR 2016
+
+## Bombillas
+
+- Largas y cortas: H7
+- Intermitente delantero: PY21W
+- Intermitente trasero: PY21W
+- Intermitente lateral: W5WA
+- Freno: P21/5W
+- Tercera luz de freno: W2.3W
+- Marcha atrás: P21W
+- Matrícula: W5W
+- Antiniebla delantero: H3
+- Antiniebla trasero: P21W
+- Interior: W5W
+
 
 ## Aceite motor
 
