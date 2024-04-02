@@ -436,7 +436,7 @@ equivalente).
 
 ```{image} ./images/soft-top/wiring-schema.png
 :class: bg-primary mb-1
-:width: 100%o
+:width: 100
 :align: center
 ```
 
