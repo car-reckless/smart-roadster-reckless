@@ -111,7 +111,7 @@ adelante solo “botón”) y el contacto (llave en posición 1).
   - 170 N
   - Compatibles:
     - MAGNETI MARELLI 430719090400: https://www.autodoc.es/magneti-marelli/7067464
-- Maletero trasero (roadster coupe)
+- Maletero trasero (roadster coupé)
   - part number: Q0011119V002000000
   - longitud: 500 mm
   - carrera: 190 mm
