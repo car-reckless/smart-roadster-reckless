@@ -33,15 +33,16 @@ adelante solo “botón”) y el contacto (llave en posición 1).
 
 - Referencia Smart: Q0013871V001000000
 - BOSCH 1 987 432 434
-- MAHLE FILTER : LAK25/1
-- MANN-FILTER : CUK 1830
+- MAHLE FILTER LAK25/1
+- MANN-FILTER CUK 1830
+- MANN-FILTER CUK 3360
 
 ## Filtro de combustible
 
 - Referencia Smart: Q0003414V003000000
-- MANN-FILTER - WK 6031
-- MANN-FILTER - WK 612
-- HELLA HENGST - H112WK
+- MANN-FILTER WK 6031
+- MANN-FILTER WK 612
+- HELLA HENGST H112WK
 
 ## Pila de la llave
 
