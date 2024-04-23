@@ -33,7 +33,7 @@
 | N11-3/3  | Rojo/Amarillo               | Mandos de la capota y retrovisores elect.  | 19      |
 | N11-3/4  | Azul                        | Ordenador de viaje, OBD, speedo, asientos  | 20      |
 | N11-3/5  | Azul/Amarillo               | Mechero                                    | 21      |
-| N11-3/6  | Gris/Rojo                   | Luces de cruce                             | 22      |
+| N11-3/6  | Gris/Rojo                   | Luces de cruce, mechero                    | 22      |
 | N11-3/7  | Azul/Verde                  | Luces de cruce                             | 23      |
 | N11-3/8  | Blanco                      | Luces largas                               | 24      |
 | N11-3/9  | Blanco/Azul                 | Luces largas                               | 25      |
