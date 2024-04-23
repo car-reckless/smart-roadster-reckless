@@ -26,8 +26,3 @@ serie, si va la primera es que las otras están bien.
 :width: 80%
 :align: center
 ```
-
-
-
-ES6000490947492910012694
-ES67 1465 0100 97 2033488973
