@@ -29,6 +29,12 @@ Ref: Q0009862V011000000 (no verificado)
 Es la pieza principal que incluye el motor y los raíles por los que se desplazan las
 piezas móviles.
 
+```{image} ./images/soft-top/ed-smart-carrier.jpeg
+:class: bg-primary mb-1
+:width: 100%
+:align: center
+```
+
 
 **Motor**
 
@@ -436,7 +442,7 @@ equivalente).
 
 ```{image} ./images/soft-top/wiring-schema.png
 :class: bg-primary mb-1
-:width: 100
+:width: 100%
 :align: center
 ```
 
