@@ -6,3 +6,5 @@
 :width: 800px
 :align: center
 ```
+
+Puedes ver la función de cada fusible en [Conexiones de la SAM](SAM-pinout.md)
