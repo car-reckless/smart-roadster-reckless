@@ -62,7 +62,7 @@
 |          |                             |                                            |         |
 | N11-7/1  | Rojo Blanco                 | Dirección asistida                         | 35      |
 | N11-7/2  | Rojo                        | Unidad de control ESP                      | 34      |
-| N11-7/3  | Rojo Negro                  | Ignicción principal                        | 33      |
+| N11-7/3  | Rojo Negro                  | Ignición principal                         | 33      |
 |          |                             |                                            |         |
 | N11-8/1  |                             |                                            |         |
 | N11-8/2  | Marrón Blanco               | Masa                                       |         |
@@ -74,7 +74,7 @@
 | N11-8/8  | Amarillo Verde              | Crash restraint (pretensores, airbag)      |         |
 | N11-8/9  | Rosa Rojo                   | Motor del limpiaparabrisas                 |         |
 | N11-8/10 | Verde Azul                  | palanca de luces y ordenador de abordo     |         |
-| N11-8/11 | Negro Verde                 | Control de cruceso pin 2                   |         |
+| N11-8/11 | Negro Verde                 | Control de crucero pin 2                   |         |
 | N11-8/12 |                             |                                            |         |
 | N11-8/13 | Marrón                      | Masa                                       |         |
 | N11-8/14 | Blanco Negro                | Speedo CAN low                             |         |
@@ -101,10 +101,10 @@
 | N11-9/4  | Gris Azul                   | Luz interior                               |         |
 | N11-9/5  |                             |                                            |         |
 | N11-9/6  | Rosa                        | Relé de antinieblas                        |         |
-| N11-9/7  | Rosa Rojo                   | Control de cruceso pin 1                   |         |
+| N11-9/7  | Rosa Rojo                   | Control de crucero pin 1                   |         |
 | N11-9/8  |                             |                                            |         |
 | N11-9/9  | Azul Amarillo               | Mando luces automáticas                    |         |
-| N11-9/10 | Verde Azul                  | Control de cruceso pin 3                   |         |
+| N11-9/10 | Verde Azul                  | Control de crucero pin 3                   |         |
 | N11-9/11 | Negro Verde                 | Señal interruptor derecho                  |         |
 | N11-9/12 | Violet Azul                 | Mando luces de emergencia                  |         |
 | N11-9/13 | Azul                        | Mando cierre centralizado                  |         |

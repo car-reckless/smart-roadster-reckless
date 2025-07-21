@@ -16,4 +16,7 @@
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#b8b8b871",
     },
+    "cSpell.words": [
+        "calefactable"
+    ],
 }
