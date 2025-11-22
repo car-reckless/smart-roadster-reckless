@@ -1,2 +1,0 @@
-# Soft tip change direction
-
