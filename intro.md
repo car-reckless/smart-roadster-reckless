@@ -1,4 +1,4 @@
-Versión: 2024-03-21
+Versión: 2025-11-21
 
 ```{image} ./images/upsidedown.jpg
 :class: bg-primary mb-1
