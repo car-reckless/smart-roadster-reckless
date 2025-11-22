@@ -3,13 +3,7 @@ project:
   title: 'Smart Roadster: Guía del aficionado temerario'
   authors:
     - name: I ♥ roady
-  github: executablebooks/jupyter-book
-  bibliography:
-    - references.bib
-  exports:
-    - format: pdf
-      template: plain_latex_book
-      output: exports/book.pdf
+  github: https://github.com/car-reckless/smart-roadster-reckless
   toc:
     - file: intro.md
     - title: General
@@ -55,9 +49,10 @@ project:
       children:
         - file: Delphi-key-programming.md
 site:
+  template: book-theme
   options:
     folders: true
-  template: book-theme
+    base_url: /smart-roadster-reckless/
 build:
   directory: _build
   assets: true
