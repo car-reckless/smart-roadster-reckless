@@ -11,7 +11,7 @@ Pulsa el botón rojo del icono del motor con un signo '+'' de la esquina inferio
 :align: center
 ```
 
-Pulsa el botón de «ajustes» (icono con llave y destornillador a la izquierda):
+Pulsa el botón de «ajustes» (icono con llave y destronillador a la izquierda):
 
 ```{image} ./images/delphi/key-prog/2-choose-function.png
 :class: bg-primary mb-1
@@ -27,11 +27,11 @@ Elige la opción «Transponder key programming» en el menú:
 :align: center
 ```
 
-Aquí aparece una lista detallada de los pasos durante el procedimiento de programación de
-las llaves. Antes de dar a «OK» debes asegurarte:
+Aquí aparece una lista detallda de los pases durante el procedimiento de programación de
+las llasves. Antes de dar a «OK» debes asegurarte:
 
 * Que el contacto está dado y el motor está parado.
-* Que las puertas están cerradas (IMPORTANTE).
+* Que las puertas cerradas (IMPORTANTE).
 * Que tienes a mano todas las llaves. Las anteriormente programadas dejarán de funcionar
   si no las vuelves a programar ahora.
 
@@ -41,7 +41,7 @@ las llaves. Antes de dar a «OK» debes asegurarte:
 :align: center
 ```
 
-Al pulsar «OK» irán apareciendo una serie de diálogos informativos:
+Al pulsar «OK» irán apareciendo una serie de diálogo informativos:
 
 ```{image} ./images/delphi/key-prog/5-wait-20s.png
 :class: bg-primary mb-1
@@ -67,6 +67,4 @@ diálogo.
 :align: center
 ```
 
-Después de esto, quita el contacto y listo. Comprueba todas las llaves.
-
-Si alguna llave no funciona, asegúrate que tiene la pila correcta y no está baja. Si todo está bien, vuelve a empezar.
+Después de esto, quita el contacto y comprueba todas las llaves.
