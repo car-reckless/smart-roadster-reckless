@@ -1,5 +1,5 @@
 Run:
 
-    $ pipx install jupyter-book
+    $ pipx install jupyter-book ghp-import
     $ make build
     $ make view
