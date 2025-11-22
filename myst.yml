@@ -58,3 +58,6 @@ site:
   options:
     folders: true
   template: book-theme
+build:
+  directory: _build
+  assets: true
