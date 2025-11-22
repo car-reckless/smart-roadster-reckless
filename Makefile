@@ -1,10 +1,8 @@
 build:
-	myst build --html
+	jupyter-book build .
 
-view:
-	kill $$(lsof -t -i:8000) || true
-	cd _build/html && python -m  http.server 8000 &
-	open http://localhost:8000
+view: build
+	open _build/html/index.html
 
 publish: build
 	git ci -a -m "Publishing to gh-pages"
@@ -12,5 +10,4 @@ publish: build
 	ghp-import -n -p -f _build/html/
 
 clean:
-	kill $$(lsof -t -i:8000) || true
 	rm -rf _build/
