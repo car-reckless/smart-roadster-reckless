@@ -1,0 +1,48 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: General
+    chapters:
+    - file: part-numbers
+    - file: maintenance
+    - file: fuse-layout
+    - file: keys-and-imobilizer
+    - file: heated-seats
+    - file: sensor-de-giro
+    - file: front-antifog
+    - file: clutch-actuator
+    - file: CKP-sensor
+    - file: homologaciones
+    - file: radio-cd
+    - file: soft-top-install
+    - file: hardtop
+    - file: heating-system
+    - file: diagnostics
+  - caption: Reparaciones
+    chapters:
+    - file: repair-side-mirror
+    - file: coupe-side-windows
+    - file: coupe-rear-spoiler
+  - caption: Hacks y mejoras
+    chapters:
+    - file: oil-filter-adapter
+    - file: radio-cd-pin-recovery
+    - file: softtip-direction-change
+    - file: dash
+  - caption: SAM
+    chapters:
+    - file: SAM-pinout
+    - file: SAM-virginizing
+  - caption: MB Star
+    chapters:
+    - file: Star-inmobilizer-teach-in
+    - file: Star-SAM-startup
+    - file: Star-tempomat
+    - file: Star-check-lambda-sensor
+    - file: Star-adjust-lambda-sensor
+  - caption: Delphi
+    chapters:
+    - file: Delphi-key-programming
