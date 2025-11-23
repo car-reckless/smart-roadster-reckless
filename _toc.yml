@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: index
 parts:
   - caption: General
     chapters:
@@ -20,7 +20,7 @@ parts:
     - file: soft-top-install
     - file: hardtop
     - file: heating-system
-    - file: diagnostics
+    - file: ruedas-y-llantas
   - caption: Reparaciones
     chapters:
     - file: repair-side-mirror
@@ -36,6 +36,9 @@ parts:
     chapters:
     - file: SAM-pinout
     - file: SAM-virginizing
+  - caption: Diagnostics
+    chapters:
+    - file: diagnostics
   - caption: MB Star
     chapters:
     - file: Star-inmobilizer-teach-in
