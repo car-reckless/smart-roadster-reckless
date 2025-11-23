@@ -1,13 +1,13 @@
 build:
-	jupyter-book build .
+	uv run jupyter-book build .
 
 view: build
 	open _build/html/index.html
 
-publish: build
+deploy: build
 	git ci -a -m "Publishing to gh-pages"
 	git push
-	ghp-import -n -p -f _build/html/
+	uv run ghp-import -n -p -f _build/html/
 
 clean:
 	rm -rf _build/
